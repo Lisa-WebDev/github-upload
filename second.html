@@ -1,0 +1,592 @@
+<!doctype html>
+
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+
+    <title>PROTOTYPE</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style_2020.css?v=5.0">
+    <link rel="stylesheet" href="exotwo_font/exotwo.css?v=1.0">
+    <!--<link rel="stylesheet" href="every_layout.css?v=2.0">-->
+    <link rel="stylesheet" href="slider.css">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> -->
+
+</head>
+
+<body>
+    <header>
+        <div class="menu-bar">
+            <nav class="top-nav">
+                <button aria-expanded="false" aria-controls="menu">
+                    <svg aria-label="Menu" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                    <path d="M4 8 L28 8 M4 16 L28 16 M4 24 L28 24"></path>
+                    </svg>
+                </button>
+                <ul id="top-menu" hidden>
+                    <li><a href="/test.html">Главная</a></li>
+                    <li><a>О нас</a></li>
+                    <li><a>Услуги</a>
+                        <button aria-expanded="false" aria-controls="submenu">
+                            <svg aria-label="SubMenu" viewBox="0 0 32 16" width="16" height="16" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                            <path d="M8 4 L16 12 M16 12 L24 4"></path>
+                            </svg>
+                        </button>
+                        <ul class="big-submenu" hidden>
+                            <li><a>Выездная кухня, кейтеринг</a>
+                                <button aria-expanded="false" aria-controls="submenu">
+                                    <svg aria-label="SubMenu" viewBox="0 0 32 16" width="16" height="16" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                    <path d="M8 4 L16 12 M16 12 L24 4"></path>
+                                    </svg>
+                                </button>
+                                <ul hidden>
+                                    <li><a href="/viezdfurshet/">Выездной фуршет</a></li>
+                                    <li><a href="/orgcoffeebrake/">Организация кофе брейка</a></li>
+                                    <li><a href="/kanape/">Доставка канапе</a></li>
+                                    <li><a href="/obslugsvadeb/">Кейтеринг на свадьбу</a></li>
+                                    <li><a href="/organizaciyabbq/">Организация BBQ</a></li>
+                                    <li><a href="/vipusknoy/">Организация выпускных</a></li>
+                                    <li><a href="/svadebliy_banket/">Обслуживание свадебных банкетов</a></li>
+                                    <li><a href="/zakazat_furshet_s_dostavkoy/">Заказать фуршет с доставкой</a></li>
+                                    <li><a href="/detskiy_den_rozhdeniya/">Фуршет на детский день рождения</a></li>
+                                    <li><a href="/korporativnyy_banket/">Корпоративный банкет</a></li>
+                                </ul>
+                            </li>
+                            <li><a>Услуги мобильного бара</a>
+                                <button aria-expanded="false" aria-controls="submenu">
+                                    <svg aria-label="SubMenu" viewBox="0 0 32 16" width="16" height="16" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                    <path d="M8 4 L16 12 M16 12 L24 4"></path>
+                                    </svg>
+                                </button>
+                                <ul hidden>
+                                    <li><a href="/outbar/">Выездной бар</a></li>
+                                    <li><a href="/orgkoteil/">Коктейль бар</a></li>
+                                    <li><a href="/viezdnoy_pivnoy_bar/">Пивной бар</a></li>
+                                    <li><a href="/freshbar/">Фреш Бар</a></li>
+                                    <li><a href="/milkbar/">Молочный бар</a></li>
+                                    <li><a href="/barmenshow/">Бармен шоу</a></li>
+                                    <li><a href="/piramidbokal/">Пирамида из бокалов шампанского</a></li>
+                                    <li><a href="/molekulbar/">Молекулярный бар</a></li>
+                                    <li><a href="/interactive_master_class/">Интерактивный мастер класс</a></li>
+                                </ul>
+                            </li>
+                            <li><a>Площадки для мероприятий</a>
+                                <button aria-expanded="false" aria-controls="submenu">
+                                    <svg aria-label="SubMenu" viewBox="0 0 32 16" width="16" height="16" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                    <path d="M8 4 L16 12 M16 12 L24 4"></path>
+                                    </svg>
+                                </button>
+                                <ul hidden>
+                                    <li><a href="/bisnaesvstrech/">Для деловых встреч</a></li>
+                                    <li><a href="/cooperative/">Для корпоративов</a></li>
+                                    <li><a href="/arenda_kottedja/">Аренда коттеджей</a></li>
+                                    <li><a href="/Neobychnye_ploshhadki/">Необычные площадки</a></li>
+                                    <li><a href="/svadeb/">Для свадеб</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a>Наши работы</a></li>
+                    <li><a>Кейсы</a>
+                        <button aria-expanded="false" aria-controls="submenu">
+                            <svg aria-label="SubMenu" viewBox="0 0 32 16" width="16" height="16" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                            <path d="M8 4 L16 12 M16 12 L24 4"></path>
+                            </svg>
+                        </button>
+                        <ul hidden>
+                            <li><a href="/case_stolypinforum/">Столыпинский Форум</a></li>
+                            <li><a href="/case_moscowmile/">Московская Миля</a></li>
+                            <li><a href="/case_premia_event/">Премия Событие Года</a></li>
+                            <li><a href="/case_gazdevice/">Открытие завода ДМТГ РУС</a></li>
+                            <li><a href="/case_alice/">Алиса в Стране чудес</a></li>
+                        </ul>
+                    </li>
+                    <li><a>Акции</a></li>
+                    <li><a>Блог</a></li>
+                    <li><a>Контакты</a></li>
+                </ul>
+               
+            </nav>
+            <div><a href="https://wa.me/79017293690" target="_blank"><svg style="height: var(--s2);margin: calc(var(--s-1) * -1);margin-right: var(--s-1);" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 49.54 47.6"><defs><style>.cls-1{fill:none;}.cls-2{clip-path:url(#clip-path);}.cls-3{fill:url(#linear-gradient);}.cls-4{fill:#fff;}</style><clipPath id="clip-path"><path class="cls-1" d="M24.94,46.6A24.14,24.14,0,0,1,13,43.47L1,46.55l4.41-9.91A22,22,0,0,1,1.34,23.8C1.34,11.23,11.93,1,24.94,1s23.6,10.23,23.6,22.8S38,46.6,24.94,46.6Z"/></clipPath><linearGradient id="linear-gradient" x1="24.77" y1="46.62" x2="24.77" y2="1.4" gradientTransform="matrix(1, 0, 0, -1, 0, 49.6)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1df47c"/><stop offset="0.31" stop-color="#12df63"/><stop offset="0.75" stop-color="#05c443"/><stop offset="1" stop-color="#00ba37"/></linearGradient></defs><title>whatsapp</title><g id="_23-whatsapp" data-name=" 23-whatsapp"><g class="cls-2"><polygon class="cls-3" points="0 47.55 0 0 49.54 0 49.54 47.6 0 47.55"/></g><path class="cls-4" d="M18.76,13.18l2,5.43a.76.76,0,0,1-.1.74,10.51,10.51,0,0,1-1.48,1.71A.79.79,0,0,0,19,22.15c1.23,1.65,4.42,5.65,8.57,7.08a.79.79,0,0,0,.89-.29l1.66-2.21a.79.79,0,0,1,1-.23l5.2,2.6a.79.79,0,0,1,.4,1c-.57,1.62-2.36,5.57-6.19,4.93A20.81,20.81,0,0,1,17.74,27.8c-3.14-3.92-9.34-14,.19-15.14A.8.8,0,0,1,18.76,13.18Z"/></g></svg></a>+7&nbsp;495&nbsp;50-777-43</div>
+        </div>
+        <div id="callback">
+            <a href="/contakts/" class="form-controller" style="width: 33ch;text-align: left;background: rgba(197, 65, 71, 0.9);">Оставить заявку</a>
+	       <a href="#callbackwidget">Заказать звонок</a>
+        </div>
+        
+        <script>
+            const items = document.querySelectorAll('.top-nav button');
+
+            function toggleMenu() {
+                const open = JSON.parse(this.getAttribute('aria-expanded'));
+                this.setAttribute('aria-expanded', !open);
+                this.nextElementSibling.hidden = !this.nextElementSibling.hidden;
+            };
+
+            items.forEach(item => item.addEventListener('click', toggleMenu));
+
+        </script>
+        
+    </header>
+    
+    <section id="promo">
+        <div class="cover">
+            <div class="panels">
+                <a href="javascript:void(0)" class="panel">
+                    <div class="panel__content"></div>
+                </a>
+                <a href="javascript:void(0)" class="panel">
+                    <div class="panel__content"></div>
+                </a>
+                <a href="javascript:void(0)" class="panel">
+                    <div class="panel__content"></div>
+                </a>
+            </div>
+        </div>
+        <div class="red-zone">
+            <div>
+                <div><img src="m1.png"><p>Кейтеринг для конференций</p></div>
+                <div><img src="m2.png"><p>Подбор площадок</p></div>
+                <div><img src="m3.png"><p>Организация мероприятий</p></div>
+                <div><img src="m4.png"><p>Оформление и&nbsp;декор</p></div>
+                <div><img src="m5.png"><p>Кулинарная анимация</p></div>
+                <div><img src="m6.png"><p>Свадебный кейтеринг</p></div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="docs-page">
+        <div class="docs-main">
+            <main id="main" tabindex="-1">
+                <div class="breadcrumbs">
+                    <span><a href="/">Главная</a> <span>></span> <a href="/uslugi/">Услуги</a> <span>></span> Организация корпоративов</span>
+                </div>
+                <h1 style="text-align: center;" class="h2">
+	Организация корпоративов</h1>
+<div class="f-row f-row--align-center incut">
+	<div class="f-col f-col--w50 f-col--sm-w100">
+		<img alt="Фотография женщины с бокалом на корпоративном мероприятии" src="http://viezdnoy-banket.ru/admin/engine_modules/ckeditor/kcfinder/upload/images/organizaciya-korporativov-01.jpg" style="margin: auto;" /></div>
+	<div class="f-col f-col--w50 f-col--sm-w100">
+		<div class="m-15px bigger">
+			<p>
+				Вряд ли найдётся компания, в которой ни разу не проводились корпоративы для сотрудников. За весёлым времяпрепровождением посетителей праздника стоит длительный и трудный процесс организации корпоративных мероприятий.</p>
+		</div>
+	</div>
+</div>
+<div>
+    <a href="/contakts/" class="vb-button-link form-controller">Оставить заявку</a>
+</div>
+<p>
+	Для проведения как массового, так и небольшого праздника требуется тщательно продумать сценарий, устроить банкетный стол, придумать развлечения и пригласить гостей.</p>
+<p>
+	Некоторые компании для организации корпоративов приглашают людей из специальных агентств, которые профессионально организовывают мероприятия любого уровня. Однако такой подход оценивают не все, ведь заказать корпоратив, проведенный профессионально, стоит дорого.</p>
+<h2 style="text-align: center;">
+	Банкет на корпоратив</h2>
+                
+<p>
+<img alt="Фотография людей за столом на корпоративном банкете" src="http://viezdnoy-banket.ru/admin/engine_modules/ckeditor/kcfinder/upload/images/organizaciya-korporativov-02.jpg" style="margin: auto;" /></p>
+<p>
+	В подобных ситуациях процесс организации праздника падает на плечи отделов компании, а они, как правило, поверхностно подходят к такому серьёзному делу. И зря, ведь именно корпоративы способствуют сплочению коллектива, а также создают имидж компании.</p>
+<p>
+	Организация корпоративных мероприятий возможна, но тогда праздник останется праздником не для всего коллектива. Конечно, воспроизвести получится не все виды праздников, однако организовать массовый выезд на какой-то спектакль или в лес вполне возможно.</p>
+<h2 style="text-align: center;">
+	Организация корпоративных мероприятий</h2>
+<p>
+    <img alt="Фотография накрытого стола для фуршета на корпоративном мероприятии" src="http://viezdnoy-banket.ru/admin/engine_modules/ckeditor/kcfinder/upload/images/organizaciya-korporativov-03.jpg" style="margin: auto;" /></p>
+<p>
+	Чтобы корпоратив принёс успех и хорошее настроение всем его участникам, следует придерживаться следующих правил.</p>
+<ol class="ul--justify-left">
+	<li>
+		Сперва важно поставить <strong>цель мероприятия</strong>, обозначить, что нужно сделать, чтобы достичь её.</li>
+	<li>
+		Организовать <strong>коллектив из активных и креативных работников</strong>. Желательно делать группу небольшой, в среднем 4-7 участников, однако если коллектив небольшой, можно обойтись и группой из двух-трёх человек. Кроме этого состава вам также пригодятся <strong>претенденты на роль &laquo;артистов&raquo; и аниматоров</strong>, ведь без них корпоратив &ndash; не корпоратив.</li>
+	<li>
+		Составьте <strong>график подготовки к событию</strong>. В списке отметьте дедлайны по обработке каждого из этапов корпоратива.</li>
+	<li>
+		Поделите <strong>обязанности между участниками </strong>креативной группы. Уделите <strong>внимание желаниям и требованиям каждого</strong> человека, назначьте руководителей, людей, отвечающих за бюджет, покупки, креативный сценарий и другие составляющие идеального праздника. Сделать это несложно, ведь такие действия сможет выполнить любой человек, хотя бы немного разбирающийся в затронутых подготовкой сферах.</li>
+</ol>
+<p>
+    <img alt="Фотография бокалов и напитков подготовленных для корпоративного мероприятия" src="http://viezdnoy-banket.ru/admin/engine_modules/ckeditor/kcfinder/upload/images/organizaciya-korporativov-04.jpg" style="margin: auto;" /></p>
+<ol class="ul--justify-left">
+	<li>
+		Выберите человека без комплексов, который <strong>сможет выступить в роли аниматора</strong>. Вот эта часть подготовки к корпоративу сложна, так как аниматор должен обладать хорошим артистизмом, но не переигрывать. В трудовом коллективе серьезной компании редко кто проявляет такое качество, однако наверняка вы знаете человека, который способен привлекать и удерживать внимание.</li>
+	<li>
+		Придумайте возможный <strong>план отступления на случай проблемных ситуаций</strong>. Во время профессиональной организации праздника часть денег как раз и уходит в этот пункт плана. Чтобы уменьшить затраты, нужно найти в коллективе такого человека, который сможет быстро реагировать в случае непредвиденного происшествия и по возможности всё исправлять.</li>
+	<li>
+		Предположите, как ваше руководство отнесётся к такому празднику. <strong>Выделите руководствующему составу отдельное место в сценарии</strong>, если в вашей компании принято соблюдать субординацию даже в такой обстановке. Заранее распишите часть сценария именно под них, ведь по большей части именно от их желаний и мнений зависит проведение праздника для всего рабочего коллектива.</li>
+	<li>
+		Добавьте в список активностей <strong>конкурсы как для молодых людей, так и для сотрудников постарше</strong>. Не всем будет интересно, например, играть в интеллектуальные игры или, наоборот, бегать в мешках.</li>
+	<li>
+		Если у вас есть возможность <strong>недорого арендовать заранее подготовленную площадь</strong>, будь то оборудованная скамейками и мангалами площадка для пикника, или же украшенный зал &ndash; воспользуйтесь ею!</li>
+</ol>
+<p>
+	Если же с этим пунктом вам не повезло, не стоит отчаиваться! Ведь всегда можно заказать корпоратив на стороне.</p>
+
+<h2 style="text-align: center;">
+	Заказать корпоратив</h2>
+<p>
+    <img alt="Фотография мини-бургеров на фуршете для корпоративного мероприятия" src="http://viezdnoy-banket.ru/admin/engine_modules/ckeditor/kcfinder/upload/images/organizaciya-korporativov-05.jpg" style="margin: auto;" /></p>
+<p>
+	При организации корпоратива решаются следующие вопросы:</p>
+<ol class="ul--justify-left">
+	<li>
+		<strong>Как организовать банкет на корпоративе</strong>? Воспользоваться ли услугами специализированной фирмы и заказать кейтеринг на корпоратив, или же подготовить фуршет на корпоратив своими силами. Кто из участников корпоратива сможет помочь заготовить питание?</li>
+	<li>
+		Внешний <strong>вид площадки, оборудование, декор</strong>. Кто из сотрудников компании поможет украсить банкетный зал или перенесёт мебель?</li>
+	<li>
+		Каким образом <strong>убирать помещение или площадку</strong> до и после корпоратива?</li>
+</ol>
+<div class="f-row f-row--align-center incut">
+	<div class="f-col f-col--w50 f-col--sm-w100">
+		<img alt="Фотография фуршетной линии на корпоративе" src="http://viezdnoy-banket.ru/admin/engine_modules/ckeditor/kcfinder/upload/images/organizaciya-korporativov-07.jpg" style="margin: auto;" /></div>
+	<div class="f-col f-col--w50 f-col--sm-w100">
+		<div class="m-15px bigger">
+			Однако не стоит забывать и о том, что на пути подготовки к такому важному мероприятию вам могут встретиться некоторые трудности</div>
+	</div>
+</div>
+<ol class="ul--justify-left">
+	<li>
+		Креативная группа, подготовившая праздник, уже <strong>не сможет полноценно отдохнуть</strong>, так как на протяжении всего корпоратива будет занята организационными моментами. Такой ход событий устраивает не всех.</li>
+	<li>
+		Заранее подготовьтесь к <strong>выражению недовольства</strong> от некоторых сотрудников. Помните, что недовольные будут на любом, даже на самом ярком и креативном мероприятии.</li>
+	<li>
+		<strong>Проблемы с технической частью</strong>. Никто не гарантирует вам идеальное интернет соединение или исправную работу оборудования. Если же корпоратив проходит на свежем воздухе, то может возникнуть форс-мажор с разведением костра или приготовлением еды непосредственно на нем. Надо предполагать такие ситуации и стараться их избежать.</li>
+	<li>
+		Если в сценарии есть активные конкурсы, то стоит <strong>запастись аптечкой на случай травм</strong>, которые могут возникнуть во время отдыха.</li>
+	<li>
+		Если вечеринка проходит на свежем воздухе, то <strong>планы могут сорвать погодные условия</strong>.</li>
+</ol>
+<p>
+	Проводить ли корпоратив самостоятельно или обратиться к специализированной фирме - решать вам.</p>
+<div class="f-row">
+	<div class="f-col f-col--w50 f-col--sm-w100">
+		<img alt="Фотография бокалов с шампанским на корпоративном мероприятии" src="http://viezdnoy-banket.ru/admin/engine_modules/ckeditor/kcfinder/upload/images/organizaciya-korporativov-06.jpg" style="margin: auto;" /></div>
+	<div class="f-col f-col--w50 f-col--sm-w100">
+		<img alt="Фотография фуршетных закусок на корпоративном празднике" src="http://viezdnoy-banket.ru/admin/engine_modules/ckeditor/kcfinder/upload/images/organizaciya-korporativov-08.jpg" style="margin: auto;" /></div>
+</div>
+                <div>
+						<a href="/contakts/" class="vb-button-link form-controller">Оставить заявку</a>
+					</div>
+            </main>
+        </div>
+    </div>
+    
+    <section id="gallery">
+        <h3 style="text-align: center;margin-top: var(--s3)">Фотоотчеты наших мероприятий</h3>
+        <div class="photo-feed">
+            <div>
+                <div>
+                    <div>
+                        <img src="gallery1.jpg">
+                        <div><p>Столыпинский форум 2019</p></div>
+                    </div>
+                    <div>
+                        <img src="gallery2.jpg">
+                        <div><p>IT выставка</p></div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="gallery3.jpg">
+                        <div><p>Событие года 2018 - банкет на 500 человек</p></div>
+                    </div>
+                    <div>
+                        <img src="gallery4.jpg">
+                        <div><p>Фотографии блюд</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    
+    <section id="towns-list">
+        <h3 style="text-align: center;">Кейтеринг в Подмосковье</h3>
+        <div class="catering-towns">
+            <div>
+                <div>
+					<a href="/catering_balashiha/">Кейтеринг Балашиха</a>
+					<a href="/catering_korolev/">Кейтеринг Королев</a>
+					<a href="/catering_solnechnogorsk/">Кейтеринг Солнечногорск</a>
+					<a href="/catering_lytkarino/">Кейтеринг в Лыткарино</a>
+					<div hidden>
+						<a href="/catering_klimovsk/">Кейтеринг в Климовске</a>
+						<a href="/catering_vidnoje/">Кейтеринг Видное</a>
+						<a href="/catering_friazino/">Кейтеринг Фрязино</a>
+						<a href="/catering_naro_fominsk/">Кейтеринг в Наро-Фоминске</a>
+						<a href="/catering_pavlovskij_posad/">Кейтеринг Павловский Посад</a>
+						<a href="/catering_mitishi/">Кейтеринг в Мытищах</a>
+					</div>
+				</div>
+				<div>
+					<a href="/catering_stupino/">Кейтеринг в Ступино</a>
+					<a href="/catering_ivanteevka/">Кейтеринг в Ивантеевке</a>
+					<a href="/catering_chehov/">Кейтеринг в Чехове</a>
+					<a href="/catering_egorjevsk/">Кейтеринг в Егорьевске</a>
+					<div hidden>
+						<a href="/catering_dubna/">Кейтеринг в Дубне</a>
+						<a href="/catering_klin/">Кейтеринг Клин</a>
+						<a href="/catering_lobnia/">Кейтеринг в Лобне</a>
+						<a href="/catering_reutov/">Кейтеринг в Реутове</a>
+						<a href="/catering_voskresensk/">Кейтеринг в Воскресенске</a>
+						<a href="/catering_electostal/">Кейтеринг Электросталь</a>
+					</div>
+				</div>
+				<div>
+					<a href="/catering_pushkino/">Кейтеринг в Пушкино</a>
+					<a href="/catering_sergiev_posad_banket/">Кейтеринг в Сергиев Посаде</a>
+					<a href="/catering_kaluga/">Кейтеринг в Калуге</a>
+					<a href="/catering_domodedovo/">Кейтеринг в Домодедово</a>
+					<div hidden>
+						<a href="/catering_odincovo/">Кейтеринг Одинцово</a>
+						<a href="/catering_v_dmitrove/">Выездной кейтеринг в городе Дмитров</a>
+						<a href="/catering_v_himkah/">Кейтеринг в Химках</a>
+						<a href="/caternig_lubercy/">Выездной ресторан в Люберцах</a>
+						<a href="/catering_zvenigorod/">Выездной банкет в Звенигороде</a>
+						<a href="/catering_podolsk/">Кейтеринг в Подольске</a>
+					</div>
+				</div>
+            </div>
+            <div style="text-align: center;">
+                <a class="catering-towns--show">Показать ещё</a>
+            </div>
+        </div>
+        
+        <script>
+            const show = document.querySelector('.catering-towns--show');
+            
+            function toggleVisibility () {
+                this.hidden = !this.hidden;
+                var items = Array.prototype.slice.call(this.parentElement.previousElementSibling.children);
+                items.forEach(item => item.lastElementChild.hidden = !item.lastElementChild.hidden);
+            }
+            
+            show.addEventListener('click', toggleVisibility);
+        </script>
+        
+    </section>
+    
+    <noindex>
+		<div class="bottom-logos">
+			<div class="otch">
+				<img src="http://viezdnoy-banket.ru/images/naom-logo.png" alt="Логотип НАОМ">
+				<p class="namefot">Члены НАОМ – Национальная Ассоциация Организаторов Праздников</p>
+			</div>
+			<div class="otch">
+				<img src="http://viezdnoy-banket.ru/images/catering_professional_180.png" alt="Логотип Catering Professional">
+				<p class="namefot">Аккредитация Catering Professional</p>
+			</div>
+			<div class="otch">
+				<img src="http://viezdnoy-banket.ru/images/gef18_logo_kvadrat_150.png" alt="Логотип GlobalEventForum">
+				<p class="namefot">Мы являемся частью организационной группы GlobalEventForum – самый большой форум про Event</p>
+			</div>
+			<div class="otch" style="align-self: flex-start;">
+				<img src="logo_200.png" alt="Логотип Выездной банкет">
+				<p class="namefot">Чемпионы кейтеринг батла 2018</p>
+			</div>
+		</div>
+	</noindex>
+    
+    <nav class="footer-menu" id="footer">
+      <div> <!-- intermediary wrapper -->
+        <div>
+            <div class="menu-wrapper">
+                <div class="footer-block">
+                    <div><strong>Наши адреса</strong></div>
+
+                    <div style="color: white;">Москва:&nbsp;ул. Горбунова, д.2 стр.3,<br>
+                        БЦ &laquo;Гранд Сетунь Плаза&raquo;<br><br>Калуга:&nbsp;&nbsp;ул. Театральная, д.9
+                    </div>
+
+                    <div><strong>Телефоны</strong></div>
+
+                    <div style="color: white;">Москва:&nbsp;+7 (495) 50-777-43</div>
+
+                    <div><strong>Режим работы</strong></div>
+
+                    <div style="color: white;" class="worktime"><span>Пн-Пт 9:00-19:00</span></div>
+                    <div class="socials">
+                        <ul>
+                            <li>
+                                <a title="ВКонтакте" target="_blank" rel="nofollow" href="https://vk.com/catering.moscow"><svg style="height: var(--s2);width: var(--s2); fill: #fff;" height="2em" viewBox="0 0 512 512" width="2em" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M475.515,137.899c3.16-10.674,0-18.53-15.2-18.53h-50.297c-12.809,0-18.702,6.746-21.861,14.261    c0,0-25.617,62.422-61.825,102.899c-11.698,11.699-17.078,15.457-23.482,15.457c-3.158,0-8.027-3.758-8.027-14.432v-99.655    c0-12.809-3.588-18.53-14.176-18.53h-79.075c-8.027,0-12.809,5.978-12.809,11.528c0,12.125,18.104,14.943,19.983,49.101v74.123    c0,16.225-2.904,19.212-9.308,19.212c-17.079,0-58.581-62.678-83.174-134.409c-4.952-13.919-9.821-19.555-22.715-19.555H43.25    c-14.346,0-17.25,6.746-17.25,14.261c0,13.32,17.079,79.502,79.502,166.945c41.587,59.689,100.167,92.056,153.453,92.056    c32.022,0,35.951-7.173,35.951-19.555c0-57.045-2.903-62.425,13.152-62.425c7.428,0,20.237,3.757,50.127,32.534    c34.155,34.158,39.792,49.445,58.92,49.445h50.297c14.347,0,21.606-7.173,17.421-21.351    c-9.564-29.801-74.208-91.114-77.111-95.213c-7.429-9.564-5.295-13.835,0-22.375C407.799,253.608,469.195,167.189,475.515,137.899    L475.515,137.899z"/></svg></a>
+                            </li>
+                            <li>
+                                <a title="Instagram" target="_blank" rel="nofollow" href="https://www.instagram.com/Nikita_event_catering/"><svg style="height: var(--s2);width: var(--s2); fill: #fff;" x="0px" y="0px" viewBox="0 0 56.7 56.7"><path d="M28.2,16.7c-7,0-12.8,5.7-12.8,12.8s5.7,12.8,12.8,12.8S41,36.5,41,29.5S35.2,16.7,28.2,16.7z M28.2,37.7 c-4.5,0-8.2-3.7-8.2-8.2s3.7-8.2,8.2-8.2s8.2,3.7,8.2,8.2S32.7,37.7,28.2,37.7z"/><circle cx="41.5" cy="16.4" r="2.9"/><path d="M49,8.9c-2.6-2.7-6.3-4.1-10.5-4.1H17.9c-8.7,0-14.5,5.8-14.5,14.5v20.5c0,4.3,1.4,8,4.2,10.7c2.7,2.6,6.3,3.9,10.4,3.9 h20.4c4.3,0,7.9-1.4,10.5-3.9c2.7-2.6,4.1-6.3,4.1-10.6V19.3C53,15.1,51.6,11.5,49,8.9z M48.6,39.9c0,3.1-1.1,5.6-2.9,7.3 s-4.3,2.6-7.3,2.6H18c-3,0-5.5-0.9-7.3-2.6C8.9,45.4,8,42.9,8,39.8V19.3c0-3,0.9-5.5,2.7-7.3c1.7-1.7,4.3-2.6,7.3-2.6h20.6 c3,0,5.5,0.9,7.3,2.7c1.7,1.8,2.7,4.3,2.7,7.2V39.9L48.6,39.9z"/></svg></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-block" style="flex-basis: 14ch;flex-grow: 2;">
+                    <div><strong>О нас</strong></div>
+
+                    <ul style="list-style: none;margin-right: 10px;">
+                        <li><a href="/viezdfurshet/">Команда</a></li>
+                        <li><a href="/orgcoffeebrake/">Кейсы</a></li>
+                        <li><a href="/kanape/">Фото и видео</a></li>
+                        <li><a href="/obslugsvadeb/">СМИ о нас</a></li>
+                        <li><a href="/chocolatefontan/">Отзывы</a></li>
+                        <li><a href="/ukrashenie_zala/">Способы оплаты</a></li>
+                        <li><a href="/dostavka_blyud/">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <div>
+        <div class="menu-wrapper">
+            <div class="footer-block">
+                <div><strong>Выездная кухня форматы</strong></div>
+                
+				<ul style="list-style: none;margin-right: 10px;">
+                    <li><a href="/viezdfurshet/">Выздной банкет</a></li>
+                    <li><a href="/viezdfurshet/">Фуршет</a></li>
+                    <li><a href="/viezdfurshet/">Кофе брейк</a></li>
+                    <li><a href="/viezdfurshet/">Коктейль (разнос закусок)</a></li>
+                    <li><a href="/viezdfurshet/">Организация BBQ</a></li>
+                    <li><a href="/viezdfurshet/">Кулинарные станции и анимация</a></li>
+                    <li><a href="/viezdfurshet/">Доставка канапе и фуршетных блюд</a></li>
+                    <li><a href="/viezdfurshet/">Стрит фуд</a></li>
+                    <li><a href="/viezdfurshet/">Кулинарные мастер классы</a></li>
+                    <li><a href="/viezdfurshet/">Молекулярная кухня</a></li>
+                    <li><a href="/viezdfurshet/">Фан кейтеринг </a></li>
+                    <li><a href="/viezdfurshet/">Кенди бар и кондитерская</a></li>
+                    <li><a href="/viezdfurshet/">Заказать торт</a></li>
+                    <li><a href="/viezdfurshet/">Корпоративное питание</a></li>
+                    <li><a href="/viezdfurshet/">Гала ужин</a></li>
+                    <li><a href="/viezdfurshet/">Кулинарные поединки</a></li>
+                </ul>
+            </div>
+            <div class="footer-block">
+                <div><strong>Поводы</strong></div>
+                
+				<ul style="list-style: none;margin-right: 10px;">
+                    <li><a href="/viezdfurshet/">Кейтеринг на деловое мероприятие</a></li>
+                    <li><a href="/viezdfurshet/">Кейтеринг на выставку выставку</a></li>
+                    <li><a href="/viezdfurshet/">Свадебный кейтеринг</a></li>
+                    <li><a href="/viezdfurshet/">Кейтеринг на конференцию</a></li>
+                    <li><a href="/viezdfurshet/">Доставка закусок в офис</a></li>
+                    <li><a href="/viezdfurshet/">Кейтеринг на 8 марта</a></li>
+                    <li><a href="/viezdfurshet/">23 февраля</a></li>
+                    <li><a href="/viezdfurshet/">На защиту диплома</a></li>
+                    <li><a href="/viezdfurshet/">Банкет на выпускной</a></li>
+                    <li><a href="/viezdfurshet/">Кейтеринг на корпоратив</a></li>
+                    <li><a href="/viezdfurshet/">Выездной банкет на новый год</a></li>
+                    <li><a href="/viezdfurshet/">Детский кейтеринг</a></li>
+                    <li><a href="/viezdfurshet/">Масленица</a></li>
+                    <li><a href="/viezdfurshet/">День рождения</a></li>
+                    <li><a href="/viezdfurshet/">Вечеринка</a></li>
+                    <li><a href="/viezdfurshet/">Кейтеринг на официальные открытия</a></li>
+                </ul>
+            </div>
+            <div class="footer-block">
+                <div><strong>Услуги выездного бара</strong></div>
+                
+				<ul style="list-style: none;margin-right: 10px;">
+                    <li><a href="/viezdfurshet/">Выездной коктейль бар</a></li>
+                    <li><a href="/viezdfurshet/">Молекулярный бар</a></li>
+                    <li><a href="/viezdfurshet/">Фреш бар</a></li>
+                    <li><a href="/viezdfurshet/">Бармен шоу</a></li>
+                    <li><a href="/viezdfurshet/">Пирамида из бокалов шампанского</a></li>
+                    <li><a href="/viezdfurshet/">Мастер классы по коктейлям и напиткам</a></li>
+                    <li><a href="/viezdfurshet/">Услуги сомелье</a></li>
+                    <li><a href="/viezdfurshet/">Скрутка сигар</a></li>
+                    <li><a href="/viezdfurshet/">Пирамида из бокалов шампанского</a></li>
+                    <li><a href="/viezdfurshet/">Шоколадный фонтан</a></li>
+                    <li><a href="/viezdfurshet/">Выездной пивной бар</a></li>
+                    <li><a href="/viezdfurshet/">Бар молочных коктейлей</a></li>
+                </ul>
+            </div>
+            <div class="footer-block">
+                <div><strong>Аренда для мероприятий</strong></div>
+                
+				<ul style="list-style: none;margin-right: 10px;">
+                    <li><a href="/viezdfurshet/">Аренда столов и стульев</a></li>
+                    <li><a href="/viezdfurshet/">Аренда декора</a></li>
+                    <li><a href="/viezdfurshet/">Аренда шатров</a></li>
+                    <li><a href="/viezdfurshet/">Аренда диванов и мебели</a></li>
+                    <li><a href="/viezdfurshet/">Аренда посуды</a></li>
+                    <li><a href="/viezdfurshet/">Аренда звука и света</a></li>
+                    <li><a href="/viezdfurshet/">Аренда текстиля и скатертей</a></li>
+                    <li><a href="/viezdfurshet/">Аренда кухонного оборудования</a></li>
+                    <li><a href="/viezdfurshet/">Аренда уличных зонтов</a></li>
+                </ul>
+            </div>
+            <div class="footer-block">
+                <div><strong>Дополнительные услуги</strong></div>
+                
+				<ul style="list-style: none;margin-right: 10px;">
+                    <li><a href="/viezdfurshet/">Организация мероприятий под ключ</a></li>
+                    <li><a href="/viezdfurshet/">Украшение зала и декор</a></li>
+                    <li><a href="/viezdfurshet/">Подбор площадок для меропирятий</a></li>
+                    <li><a href="/viezdfurshet/">Фото и Видео сьемка</a></li>
+                    <li><a href="/viezdfurshet/">Ведущий на мероприятие</a></li>
+                    <li><a href="/viezdfurshet/">Заказать диджея на мероприятие</a></li>
+                    <li><a href="/viezdfurshet/">Организация трансфера</a></li>
+                    <li><a href="/viezdfurshet/">Координация мероприятий</a></li>
+                    <li><a href="/viezdfurshet/">Свадебный распорядитель</a></li>
+                </ul>
+            </div>
+            <div class="footer-block">
+                <div><strong>Аренда площадок</strong></div>
+                
+				<ul style="list-style: none;margin-right: 10px;">
+                    <li><a href="/viezdfurshet/">Площадки для свадеб</a></li>
+                    <li><a href="/viezdfurshet/">Аренда коттеджей для мероприятий</a></li>
+                    <li><a href="/viezdfurshet/">Площадки для деловых мероприятий</a></li>
+                    <li><a href="/viezdfurshet/">Для корпоративных мероприятий</a></li>
+                    <li><a href="/viezdfurshet/">Аренда лофта для праздника</a></li>
+                    <li><a href="/viezdfurshet/">Необычные площадки для мероприятий</a></li>
+                    <li><a href="/viezdfurshet/">Аренда шатров у воды</a></li>
+                    <li><a href="/viezdfurshet/">Аренда масштабных площадок</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  </div>
+</nav>
+    
+    <section id="contact">
+        <div class="contact-form" hidden>
+            <div>
+                <div>
+                    <img src="bg.jpg">
+                    <button class="form-controller">
+                        <svg aria-label="FormClose" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                    <path d="M4 4 L24 24 M4 24 L24 4"></path>
+                                    </svg>
+                    </button>
+                </div>
+                <div>
+                    <form>
+                        <h3>Online оформление заявки</h3>
+                        <input type="text" placeholder="Имя" id="customerName" required autofocus>
+                        <input type="tel" placeholder="Телефон" id="customerPhone" required>
+                        <label for="customerAgreed">Нажимая кнопку &laquo;Отправить&raquo;, вы даете свое согласие на обработку персональных данных в соответствии с политикой конфиденциальности.
+                            <input type="radio" id="customerAgreed" required>
+                            <span class="radioinput"></span>
+                        </label>
+                        <button type="submit">Отправить заявку</button>
+                    </form>
+                </div>
+                <div><img src="bg2.png"></div>
+            </div>
+        </div>
+    </section>
+    
+    <!--<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>-->
+    <script>
+        const formControls = document.querySelectorAll('.form-controller');
+
+        function toggleForm () {
+            document.querySelector('.contact-form').hidden = !document.querySelector('.contact-form').hidden;
+        }
+
+        formControls.forEach(controller => controller.addEventListener('click', (event) => {
+            event.preventDefault();
+            toggleForm();
+            return(false);
+        }));
+            
+    </script>
+</body>
+</html>
