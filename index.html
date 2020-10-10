@@ -1,0 +1,1626 @@
+<!doctype html>
+
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+
+    <title>PROTOTYPE</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style_2020.css?v=5.0">
+    <link rel="stylesheet" href="frontpage.css?v=1.0">
+    <link rel="stylesheet" href="exotwo_font/exotwo.css?v=2.0">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="menu-bar">
+            <nav class="top-nav">
+                <button aria-expanded="false" aria-controls="menu">
+                    <svg aria-label="Menu" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                    <path d="M4 8 L28 8 M4 16 L28 16 M4 24 L28 24"></path>
+                    </svg>
+                </button>
+                <ul id="top-menu" hidden>
+                    <li><a href="/test.html">Главная</a></li>
+                    <li><a>О нас</a></li>
+                    <li><a>Услуги</a>
+                        <button aria-expanded="false" aria-controls="submenu">
+                            <svg aria-label="SubMenu" viewBox="0 0 32 16" width="16" height="16" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                            <path d="M8 4 L16 12 M16 12 L24 4"></path>
+                            </svg>
+                        </button>
+                        <ul class="big-submenu" hidden>
+                            <li><a>Выездная кухня, кейтеринг</a>
+                                <button aria-expanded="false" aria-controls="submenu">
+                                    <svg aria-label="SubMenu" viewBox="0 0 32 16" width="16" height="16" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                    <path d="M8 4 L16 12 M16 12 L24 4"></path>
+                                    </svg>
+                                </button>
+                                <ul hidden>
+                                    <li><a href="/viezdfurshet/">Выездной фуршет</a></li>
+                                    <li><a href="/orgcoffeebrake/">Организация кофе брейка</a></li>
+                                    <li><a href="/kanape/">Доставка канапе</a></li>
+                                    <li><a href="/obslugsvadeb/">Кейтеринг на свадьбу</a></li>
+                                    <li><a href="/organizaciyabbq/">Организация BBQ</a></li>
+                                    <li><a href="/vipusknoy/">Организация выпускных</a></li>
+                                    <li><a href="/svadebliy_banket/">Обслуживание свадебных банкетов</a></li>
+                                    <li><a href="/zakazat_furshet_s_dostavkoy/">Заказать фуршет с доставкой</a></li>
+                                    <li><a href="/detskiy_den_rozhdeniya/">Фуршет на детский день рождения</a></li>
+                                    <li><a href="/korporativnyy_banket/">Корпоративный банкет</a></li>
+                                </ul>
+                            </li>
+                            <li><a>Услуги мобильного бара</a>
+                                <button aria-expanded="false" aria-controls="submenu">
+                                    <svg aria-label="SubMenu" viewBox="0 0 32 16" width="16" height="16" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                    <path d="M8 4 L16 12 M16 12 L24 4"></path>
+                                    </svg>
+                                </button>
+                                <ul hidden>
+                                    <li><a href="/outbar/">Выездной бар</a></li>
+                                    <li><a href="/orgkoteil/">Коктейль бар</a></li>
+                                    <li><a href="/viezdnoy_pivnoy_bar/">Пивной бар</a></li>
+                                    <li><a href="/freshbar/">Фреш Бар</a></li>
+                                    <li><a href="/milkbar/">Молочный бар</a></li>
+                                    <li><a href="/barmenshow/">Бармен шоу</a></li>
+                                    <li><a href="/piramidbokal/">Пирамида из бокалов шампанского</a></li>
+                                    <li><a href="/molekulbar/">Молекулярный бар</a></li>
+                                    <li><a href="/interactive_master_class/">Интерактивный мастер класс</a></li>
+                                </ul>
+                            </li>
+                            <li><a>Площадки для мероприятий</a>
+                                <button aria-expanded="false" aria-controls="submenu">
+                                    <svg aria-label="SubMenu" viewBox="0 0 32 16" width="16" height="16" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                    <path d="M8 4 L16 12 M16 12 L24 4"></path>
+                                    </svg>
+                                </button>
+                                <ul hidden>
+                                    <li><a href="/bisnaesvstrech/">Для деловых встреч</a></li>
+                                    <li><a href="/cooperative/">Для корпоративов</a></li>
+                                    <li><a href="/arenda_kottedja/">Аренда коттеджей</a></li>
+                                    <li><a href="/Neobychnye_ploshhadki/">Необычные площадки</a></li>
+                                    <li><a href="/svadeb/">Для свадеб</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a>Наши работы</a></li>
+                    <li><a>Кейсы</a>
+                        <button aria-expanded="false" aria-controls="submenu">
+                            <svg aria-label="SubMenu" viewBox="0 0 32 16" width="16" height="16" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                            <path d="M8 4 L16 12 M16 12 L24 4"></path>
+                            </svg>
+                        </button>
+                        <ul hidden>
+                            <li><a href="/case_stolypinforum/">Столыпинский Форум</a></li>
+                            <li><a href="/case_moscowmile/">Московская Миля</a></li>
+                            <li><a href="/case_premia_event/">Премия Событие Года</a></li>
+                            <li><a href="/case_gazdevice/">Открытие завода ДМТГ РУС</a></li>
+                            <li><a href="/case_alice/">Алиса в Стране чудес</a></li>
+                        </ul>
+                    </li>
+                    <li><a>Акции</a></li>
+                    <li><a>Блог</a></li>
+                    <li><a>Контакты</a></li>
+                </ul>
+               
+            </nav>
+            <div><a href="https://wa.me/79017293690" target="_blank"><svg style="height: var(--s2);margin: calc(var(--s-1) * -1);margin-right: var(--s-1);" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 49.54 47.6"><defs><style>.cls-1{fill:none;}.cls-2{clip-path:url(#clip-path);}.cls-3{fill:url(#linear-gradient);}.cls-4{fill:#fff;}</style><clipPath id="clip-path"><path class="cls-1" d="M24.94,46.6A24.14,24.14,0,0,1,13,43.47L1,46.55l4.41-9.91A22,22,0,0,1,1.34,23.8C1.34,11.23,11.93,1,24.94,1s23.6,10.23,23.6,22.8S38,46.6,24.94,46.6Z"/></clipPath><linearGradient id="linear-gradient" x1="24.77" y1="46.62" x2="24.77" y2="1.4" gradientTransform="matrix(1, 0, 0, -1, 0, 49.6)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1df47c"/><stop offset="0.31" stop-color="#12df63"/><stop offset="0.75" stop-color="#05c443"/><stop offset="1" stop-color="#00ba37"/></linearGradient></defs><title>whatsapp</title><g id="_23-whatsapp" data-name=" 23-whatsapp"><g class="cls-2"><polygon class="cls-3" points="0 47.55 0 0 49.54 0 49.54 47.6 0 47.55"/></g><path class="cls-4" d="M18.76,13.18l2,5.43a.76.76,0,0,1-.1.74,10.51,10.51,0,0,1-1.48,1.71A.79.79,0,0,0,19,22.15c1.23,1.65,4.42,5.65,8.57,7.08a.79.79,0,0,0,.89-.29l1.66-2.21a.79.79,0,0,1,1-.23l5.2,2.6a.79.79,0,0,1,.4,1c-.57,1.62-2.36,5.57-6.19,4.93A20.81,20.81,0,0,1,17.74,27.8c-3.14-3.92-9.34-14,.19-15.14A.8.8,0,0,1,18.76,13.18Z"/></g></svg></a>+7&nbsp;495&nbsp;50-777-43</div>
+        </div>
+        <div id="callback">
+            <a href="/contakts/" class="form-controller" id="fromHeader" style="width: 33ch;text-align: left;background: rgba(197, 65, 71, 0.9);">Оставить заявку</a>
+	       <a href="#callbackwidget">Заказать звонок</a>
+        </div>
+        
+        <script>
+            const items = document.querySelectorAll('.top-nav button');
+
+            function toggleMenu() {
+                const open = JSON.parse(this.getAttribute('aria-expanded'));
+                this.setAttribute('aria-expanded', !open);
+                this.nextElementSibling.hidden = !this.nextElementSibling.hidden;
+            };
+
+            items.forEach(item => item.addEventListener('click', toggleMenu));
+
+        </script>
+        
+    </header>
+    
+    <section id="promo">
+        <div class="front-slider">
+            <!--<div  class="main-carousel" data-flickity='{ "cellAlign": "left", "wrapAround": "true", "lazyLoad": "true" }'>-->
+            <div  class="main-carousel" data-flickity='{ "cellAlign": "left", "wrapAround": "true", "lazyLoad": "true", "autoPlay": "true", "autoPlay": "3000" }'>
+                <div class="carousel-cell">
+                    <p><img class="carousel-cell-image" data-flickity-lazyload="slide.jpg"></p>
+                </div>
+                <div class="carousel-cell">
+                    <p><img class="carousel-cell-image" data-flickity-lazyload="slide2.jpg"></p>
+                </div>
+                <div class="carousel-cell">
+                    <p><img class="carousel-cell-image" data-flickity-lazyload="slide3.jpg"></p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <div>
+                        <img src="vb_logo.svg" style="width: 10em;">
+                    </div>
+                    <div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-button">
+            <p><a href="/contakts/" class="vb-button-link form-controller">Выбрать кейтеринг</a></p>
+        </div>
+    </section>
+    
+    <div class="docs-page">
+        <div class="docs-main" style="padding: 0">
+            <main id="frontpage">
+                <div class="presentation">
+                    <div>
+                        <a href="/conf/">
+                            <div>
+                                <p>Кейтеринг для конференций</p>
+                                <img src="front/m1.png">
+                            </div>
+                        </a>
+                        <a href="/event/">
+                            <div>
+                                <p>Организация мероприятий</p>
+                                <img src="front/m3.png">
+                            </div>
+                        </a>
+                        <a href="/animation/">
+                            <div>
+                                <p>Кулинарная анимация</p>
+                                <img src="front/m5.png">
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="/select/">
+                            <div>
+                                <img src="front/m2.png">
+                                <p>Подбор площадок</p>
+                            </div>
+                        </a>
+                        <a href="/decor/">
+                            <div>
+                                <img src="front/m4.png">
+                                <p>Оформление и&nbsp;декор</p>
+                            </div>
+                        </a>
+                        <a href="/wedding/">
+                            <div>
+                                <img src="front/m6.png">
+                                <p>Свадебный кейтеринг</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="black">
+                        <div>
+                            <h1>Организация выездного банкета</h1>
+                            <hr>
+                            <p>Заказать кейтеринг это прекрасная идея, если вы пригласили на свое мероприятие более 15&#8209;ти гостей. Готовить самостоятельно на большую компанию это большая работа. Оставьте эту работу профессионалам. Вам следует направиться к своим гостям и получать удовольствие.</p>
+                            <p>Мы команда экспертов в области выездного обслуживания — ресторан VIEZDNOY&#8209;BANKET.RU&nbsp;—&nbsp;с радостью и профессионализмом займемся вашим мероприятием. За последний год мы реализовали более 400 проектов, а наше портфолио говорит само за себя!  Мы предложим привлекательные площадки, вкусное меню и напитки, а так же интересную шоу программу.</p>
+                            <p><a href="#">Подробнее</a></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="calc">
+                    <div>
+                        <div>
+                            <h2>Калькулятор фуршета</h2>
+                            <div class="type1">
+                                <div>
+                                    <p>Гости</p>
+                                </div>
+                                <div>
+                                    <div>
+                                        <div>
+                                            <p>20</p>
+                                            <p>90</p>
+                                            <p>160</p>
+                                            <p>230</p>
+                                            <p>300</p>
+                                        </div>
+                                        <div class="slidecontainer">
+                                            <input type="range" min="2" max="30" value="9" class="range-slider" id="eventGuestsInput" style="--c: 9; --min: 2; --max: 30;">
+                                        </div>
+                                        <div style="justify-content: space-evenly;">
+                                            <svg viewBox="0 0 16 32" width="8" height="16" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                                <path d="M8 8 L8 16"></path>
+                                            </svg><svg viewBox="0 0 16 32" width="8" height="16" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                                <path d="M8 8 L8 16"></path>
+                                            </svg><svg viewBox="0 0 16 32" width="8" height="16" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                                <path d="M8 8 L8 16"></path>
+                                            </svg><svg viewBox="0 0 16 32" width="8" height="16" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                                <path d="M8 8 L8 16"></path>
+                                            </svg><svg viewBox="0 0 16 32" width="8" height="16" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                                <path d="M8 8 L8 16"></path>
+                                            </svg><svg viewBox="0 0 16 32" width="8" height="16" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                                <path d="M8 8 L8 16"></path>
+                                            </svg><svg viewBox="0 0 16 32" width="8" height="16" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                                <path d="M8 8 L8 16"></path>
+                                            </svg><svg viewBox="0 0 16 32" width="8" height="16" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                                <path d="M8 8 L8 24"></path>
+                                            </svg><svg viewBox="0 0 16 32" width="8" height="16" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                                <path d="M8 8 L8 16"></path>
+                                            </svg><svg viewBox="0 0 16 32" width="8" height="16" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                                <path d="M8 8 L8 16"></path>
+                                            </svg><svg viewBox="0 0 16 32" width="8" height="16" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                                <path d="M8 8 L8 16"></path>
+                                            </svg><svg viewBox="0 0 16 32" width="8" height="16" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                                <path d="M8 8 L8 16"></path>
+                                            </svg><svg viewBox="0 0 16 32" width="8" height="16" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                                <path d="M8 8 L8 16"></path>
+                                            </svg><svg viewBox="0 0 16 32" width="8" height="16" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                                <path d="M8 8 L8 16"></path>
+                                            </svg><svg viewBox="0 0 16 32" width="8" height="16" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                                <path d="M8 8 L8 24"></path>
+                                            </svg><svg viewBox="0 0 16 32" width="8" height="16" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                                <path d="M8 8 L8 16"></path>
+                                            </svg><svg viewBox="0 0 16 32" width="8" height="16" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                                <path d="M8 8 L8 16"></path>
+                                            </svg><svg viewBox="0 0 16 32" width="8" height="16" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                                <path d="M8 8 L8 16"></path>
+                                            </svg><svg viewBox="0 0 16 32" width="8" height="16" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                                <path d="M8 8 L8 16"></path>
+                                            </svg><svg viewBox="0 0 16 32" width="8" height="16" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                                <path d="M8 8 L8 16"></path>
+                                            </svg><svg viewBox="0 0 16 32" width="8" height="16" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                                <path d="M8 8 L8 16"></path>
+                                            </svg><svg viewBox="0 0 16 32" width="8" height="16" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                                <path d="M8 8 L8 24"></path>
+                                            </svg><svg viewBox="0 0 16 32" width="8" height="16" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                                <path d="M8 8 L8 16"></path>
+                                            </svg><svg viewBox="0 0 16 32" width="8" height="16" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                                <path d="M8 8 L8 16"></path>
+                                            </svg><svg viewBox="0 0 16 32" width="8" height="16" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                                <path d="M8 8 L8 16"></path>
+                                            </svg><svg viewBox="0 0 16 32" width="8" height="16" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                                <path d="M8 8 L8 16"></path>
+                                            </svg><svg viewBox="0 0 16 32" width="8" height="16" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                                <path d="M8 8 L8 16"></path>
+                                            </svg><svg viewBox="0 0 16 32" width="8" height="16" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                                <path d="M8 8 L8 16"></path>
+                                            </svg><svg viewBox="0 0 16 32" width="8" height="16" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                                <path d="M8 8 L8 16"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p>Человек</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="type1">
+                                <div>
+                                    <p>Длительность</p>
+                                </div>
+                                <div>
+                                    <div>
+                                        <div>
+                                            <p>5ч</p>
+                                            <p>8ч</p>
+                                            <p>10ч</p>
+                                        </div>
+                                        <div class="slidecontainer">
+                                            <input type="range" min="1" max="3" value="1" class="range-slider" id="eventTimeInput" style="--c: 1; --min: 1; --max: 3;">
+                                        </div>
+                                        <div style="justify-content: center;">
+                                            <svg viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                                <path d="M16 8 L16 24"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    
+                                    <div>
+                                        <p>Часов</p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="type2">
+                                <p>Тип меню</p>
+                                <div>
+                                    <label class="radiocontainer">Эконом
+                                        <input type="radio" name="eventBudgetInput" onclick="doCalc(2, this.previousSibling.nodeValue)">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                        <label class="radiocontainer">Бизнес
+                                        <input type="radio"  checked="checked" name="eventBudgetInput" onclick="doCalc(2, this.previousSibling.nodeValue)">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                        <label class="radiocontainer">Премиум
+                                        <input type="radio" name="eventBudgetInput" onclick="doCalc(2, this.previousSibling.nodeValue)">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="type3">
+                                <div>
+                                    <p>Вид мероприятия</p>
+                                    <div>
+                                        <label class="radiocontainer inverse">Банкет
+                                            <input type="radio" checked="checked" name="eventTypeInput" onclick="doCalc(1, this.previousSibling.nodeValue)">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="radiocontainer inverse">Фуршет
+                                            <input type="radio" name="eventTypeInput" onclick="doCalc(1, this.previousSibling.nodeValue)">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="radiocontainer inverse">Кофе брейк
+                                            <input type="radio" name="eventTypeInput" onclick="doCalc(1, this.previousSibling.nodeValue)">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="radiocontainer inverse">Выездной бар
+                                            <input type="radio" name="eventTypeInput" onclick="doCalc(1, this.previousSibling.nodeValue)">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="radiocontainer inverse">Барбекю
+                                            <input type="radio" name="eventTypeInput" onclick="doCalc(1, this.previousSibling.nodeValue)">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="radiocontainer inverse">Кенди бар
+                                            <input type="radio" name="eventTypeInput" onclick="doCalc(1, this.previousSibling.nodeValue)">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="radiocontainer inverse">Доставка канапе
+                                            <input type="radio" name="eventTypeInput" onclick="doCalc(1, this.previousSibling.nodeValue)">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>Дополнительные услуги</p>
+                                    <div>
+                                        <label class="switch">Оформление декоратором
+                                            <input type="checkbox" name="eventExtrasInput" onclick="doCalc(4, this.previousSibling.nodeValue, this.checked)">
+                                            <span class="switch--slider"></span>
+                                        </label>
+                                        <label class="switch">Выездной кальянный бар
+                                            <input type="checkbox" name="eventExtrasInput" onclick="doCalc(4, this.previousSibling.nodeValue, this.checked)">
+                                            <span class="switch--slider"></span>
+                                        </label>
+                                        <label class="switch">Кулинарная шоу станция
+                                            <input type="checkbox" name="eventExtrasInput" onclick="doCalc(4, this.previousSibling.nodeValue, this.checked)">
+                                            <span class="switch--slider"></span>
+                                        </label>
+                                        <label class="switch">Бармен шоу (фикс)
+                                            <input type="checkbox" name="eventExtrasInput" onclick="doCalc(5, this.previousSibling.nodeValue, this.checked)">
+                                            <span class="switch--slider"></span>
+                                        </label>
+                                        <label class="switch">Фотограф на мероприятие (фикс)
+                                            <input type="checkbox" name="eventExtras" onclick="doCalc(5, this.previousSibling.nodeValue, this.checked)">
+                                            <span class="switch--slider"></span>
+                                        </label>
+                                        <label class="switch">Диджей на банкет (фикс)
+                                            <input type="checkbox" name="eventExtrasInput"  onclick="doCalc(5, this.previousSibling.nodeValue, this.checked)">
+                                            <span class="switch--slider"></span>
+                                        </label>
+                                        <label class="switch">Ведущий на праздник (фикс)
+                                            <input type="checkbox" name="eventExtrasInput"  onclick="doCalc(5, this.previousSibling.nodeValue, this.checked)">
+                                            <span class="switch--slider"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="type4">
+                                <div>
+                                    <div>
+                                        <p>Вид</p>
+                                        <p id="eventTypeOutput" style="min-width: 16ch;">Банкет</p>
+                                    </div>
+                                    <div>
+                                        <p>Бюджет</p>
+                                        <p id="eventBudgetOutput" style="min-width: 9ch;">Бизнес</p>
+                                    </div>
+                                    <div>
+                                        <p>Гостей</p>
+                                        <p id="eventGuestsOutput">0</p>
+                                    </div>
+                                    <div>
+                                        <p>Цена на чел</p>
+                                        <p id="eventPriceOutput">0</p>
+                                    </div>
+                                    <div>
+                                        <p>Общая стоимость</p>
+                                        <p id="eventTotalOutput">JavaScript Required</p>
+                                    </div>
+                                    <div style="flex-grow: 1;">
+                                        <a href="/contakts/" class="vb-button-link form-controller" id="calc">Заказать</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="menus">
+                    <a href="menu-kuhni">
+                        <div>
+                            <img src="front/menu_eat.png">
+                            <p>Меню кухни</p>
+                            <svg aria-label="Menu" viewBox="0 0 32 20" width="4ch" height="2ch" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4%">
+                            <path d="M0 8 L32 8 M0 14 L32 14"></path>
+                            </svg>
+                            <p>Смотреть меню ></p>
+                        </div>
+                    </a>
+                    <a href="menu-bara">
+                        <div>
+                            <img src="front/menu_bar.png">
+                            <p>Меню бара</p>
+                            <svg aria-label="Menu" viewBox="0 0 32 20" width="4ch" height="2ch" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4%">
+                            <path d="M0 8 L32 8 M0 14 L32 14"></path>
+                            </svg>
+                            <p>Смотреть меню ></p>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="gift">
+                    <div>
+                        <div>
+                            <img src="vb_logo_b.svg">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Получите фирменный набор из 30 канапе от шеф&#8209;повара при заказе банкета или фуршета</p>
+                                <p>
+                                    <img src="front/gift_line.png" style="max-width: 10ch;margin-bottom: -5px;">
+                                    <a href="/contakts/" class="vb-button-link form-controller">Получить подарок</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="events">
+                    <div>
+                        <div>
+                            <div>
+                                <img src="front/IMG_1491.jpg">
+                                <div>
+                                    <h2>Организация выездного фуршета</h2>
+                                    <p>Выездной фуршет - это прекрасное решение для проведения праздничных и деловых мероприятий без хлопот.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="front/IMG_1336.jpg">
+                                <div>
+                                    <h2>Выездной бар на мероприятие</h2>
+                                    <p>Fire show, горка из бокалов с фруктами или лепестками роз, фреш бар, молекулярные коктейли.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="front/1P5A3124.jpg">
+                                <div>
+                                    <h2>Кофе брейк</h2>
+                                    <p>Профессиональное проведение кофе брейка в и ещё какой-нибудь текст, чтобы было по феншую 3 строчки.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="offers">
+                    <h2 style="text-align: center;">
+	Расчёт кейтеринга</h2>
+<p>
+	&nbsp;</p>
+<div class="f-row m-10px f-row--justify-center" style="text-align: center;">
+	<div class="f-col f-col--w33 f-col--md-w50 f-col--sm-w100">
+		<div class="card-style">
+			<a href="/admin/engine_modules/ckeditor/kcfinder/upload/files/vip-menu.xlsx"><img alt="Меню банкета VIP от 4900 руб" src="https://viezdnoy-banket.ru/admin/engine_modules/ckeditor/kcfinder/upload/images/menu_vip.jpeg" style="margin: auto;" /></a>
+			<h3 style="margin-top: 15px;">
+				Меню &laquo;VIP&raquo;</h3>
+			<p>
+				&nbsp;</p>
+			<p>
+				<a href="/admin/engine_modules/ckeditor/kcfinder/upload/files/vip-menu.xlsx">Скачать меню в Excel</a></p>
+			<p>
+				<a href="/admin/engine_modules/ckeditor/kcfinder/upload/files/vip-menu.xlsx">на 20 персон</a></p>
+			<p>
+				4900-5600 руб.</p>
+		</div>
+	</div>
+	<div class="f-col f-col--w33 f-col--md-w50 f-col--sm-w100">
+		<div class="card-style">
+			<a href="https://viezdnoy-banket.ru/admin/engine_modules/ckeditor/kcfinder/upload/files/%D0%91%D0%B0%D0%BD%D0%BA%D0%B5%D1%82%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%20VBANKET%20%D0%BD%D0%B0%2050%20%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%281%29.xlsx"><img alt="Меню банкета бизнес от 3600 руб" src="https://viezdnoy-banket.ru/admin/engine_modules/ckeditor/kcfinder/upload/images/menu_business.jpeg" style="margin: auto;" /></a>
+			<h3 style="margin-top: 15px;">
+				Меню &laquo;Бизнес&raquo;</h3>
+			<p>
+				<strong><span style="color:#ff0000;">Подарок внутри</span></strong></p>
+			<p>
+				<a href="/admin/engine_modules/ckeditor/kcfinder/upload/files/%D0%91%D0%B0%D0%BD%D0%BA%D0%B5%D1%82%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%20VBANKET%20%D0%BD%D0%B0%2050%20%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%281%29.xlsx">Скачать меню в Excel</a></p>
+			<p>
+				<a href="/admin/engine_modules/ckeditor/kcfinder/upload/files/%D0%91%D0%B0%D0%BD%D0%BA%D0%B5%D1%82%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%20VBANKET%20%D0%BD%D0%B0%2050%20%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%281%29.xlsx">на 50 персон</a></p>
+			<p>
+				3600-3900 руб.</p>
+		</div>
+	</div>
+	<div class="f-col f-col--w33 f-col--md-w50 f-col--sm-w100">
+		<div class="card-style">
+			<a href="https://viezdnoy-banket.ru/admin/engine_modules/ckeditor/kcfinder/upload/files/%D0%9C%D0%B5%D0%BD%D1%8E%20%D0%B1%D0%B0%D0%BD%D0%BA%D0%B5%D1%82%20%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%20viezdnoy-banket.ru%2050%20%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA%20%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5%201%283%29.xlsx"><img alt="Меню банкета стандарт от 2900 руб" src="https://viezdnoy-banket.ru/admin/engine_modules/ckeditor/kcfinder/upload/images/menu_standard.jpeg" style="margin: auto;" /></a>
+			<h3 style="margin-top: 15px;">
+				Меню &laquo;Стандарт&raquo;</h3>
+			<p>
+				&nbsp;</p>
+			<p>
+				<a href="/admin/engine_modules/ckeditor/kcfinder/upload/files/%D0%9C%D0%B5%D0%BD%D1%8E%20%D0%B1%D0%B0%D0%BD%D0%BA%D0%B5%D1%82%20%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%20viezdnoy-banket.ru%2050%20%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA%20%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5%201%283%29.xlsx">Скачать меню в Excel</a></p>
+			<p>
+				<a href="/admin/engine_modules/ckeditor/kcfinder/upload/files/%D0%9C%D0%B5%D0%BD%D1%8E%20%D0%B1%D0%B0%D0%BD%D0%BA%D0%B5%D1%82%20%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%20viezdnoy-banket.ru%2050%20%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA%20%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5%201%283%29.xlsx">на 50 персон</a></p>
+			<p>
+				2900-3400 руб.</p>
+		</div>
+	</div>
+</div>
+                </div>
+                
+                <div class="work">
+                    <h2>Как мы работаем?</h2>
+                    <div>
+                        <div>
+                            <div>
+                                <p><img src="front/01-email.png"></p>
+                                <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" style="fill:#c64244;width: 40px;"><circle cx="16" cy="16" r="16" /><text x="50%" y="70%" text-anchor="middle" fill="white" font-size="20px">1</text></svg></p>
+                                <p>Вы отправляете заявку на услуги кейтеринга по почте, либо звоните по телефону.</p>
+                            </div>
+                            <div>
+                                <p><img src="front/02-call.png"></p>
+                                <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" style="fill:#c64244;width: 40px;"><circle cx="16" cy="16" r="16" /><text x="50%" y="70%" text-anchor="middle" fill="white" font-size="20px">2</text></svg></p>
+                                <p>Мы согласовываем время, место и количество гостей.</p>
+                            </div>
+                            <div>
+                                <p><img src="front/03-delivery.png"></p>
+                                <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" style="fill:#c64244;width: 40px;"><circle cx="16" cy="16" r="16" /><text x="50%" y="70%" text-anchor="middle" fill="white" font-size="20px">3</text></svg></p>
+                                <p>Мы к указанному сроку доставляем и устанавливаем оборудование.</p>
+                            </div>
+                            <div>
+                                <p><img src="front/04-party.png"></p>
+                                <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" style="fill:#c64244;width: 40px;"><circle cx="16" cy="16" r="16" /><text x="50%" y="70%" text-anchor="middle" fill="white" font-size="20px">4</text></svg></p>
+                                <p>Ваши гости остаются сытыми и довольными.</p>
+                            </div>
+                            <div>
+                                <p><img src="front/05-garbage.png"></p>
+                                <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" style="fill:#c64244;width: 40px;"><circle cx="16" cy="16" r="16" /><text x="50%" y="70%" text-anchor="middle" fill="white" font-size="20px">5</text></svg></p>
+                                <p>После мероприятия мы увозим весь мусор с собой.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="advantages">
+                    <div>
+                        <h2>Преимущества нашего кейтеринга</h2>
+                        <div>
+                            <div>
+                                <div><img src="front/01-room-service.svg"></div>
+                                <div>
+                                    <p>Кейтеринг сервис на высоком уровне</p>
+                                    <p>Наши услуги позволяют получать хороший сервис и доверить организационные вопросы профессионалам – мы эксперты в области кейтеринга у которых этот продукт и система работы выстроена на потоке и хорошо организована. За счет этого достигается лучшая цена и постоянно растущее качество услуг.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div><img src="front/02-support.svg"></div>
+                                <div>
+                                    <p>Забота о репутации клиентов</p>
+                                    <p>Клиент покупает не товар, он не решает задачу накормить гостей. Он покупает лояльность гостей, атмосферу – ценность для него это красиво организованный эстетический прием пищи. Который так и говорит гостям – мы вас любим, мы вас уважаем, вы ценны для нас, это специальное торжество для вас – дорогих мне гостей.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div><img src="front/03-speech-bubble.svg"></div>
+                                <div>
+                                    <p>Свободный стиль коммуникации</p>
+                                    <p>У нас свободный, дружественный и заботливый стиль коммуникации. При этом мы эксперты в своем деле, которые уверены в себе, нам не нужно доказывать другим нашу значимость – мы хорошо знаем все современные тренды и технологии.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div><img src="front/04-food.svg"></div>
+                                <div>
+                                    <p>Современный стиль</p>
+                                    <p>Стиль все, что мы делаем должно соответствовать современным технологиям и трендам. Мы законодатели стиля в индустрии ивента и ресторанного бизнеса. Наши подачи и материалы должны быть с впечатляющим и смелым дизайном.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div><img src="front/05-chef.svg"></div>
+                                <div>
+                                    <p>Экспертность</p>
+                                    <p>Выражается везде, мы знаем рынок от и до, мы заметный игрок – мы законодатели моды в индустрии. Мы можем проконсультировать любого клиента по всем техническим вопросам, можем предостеречь его от ошибок при организации мероприятий.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div><img src="front/06-food-service.svg"></div>
+                                <div>
+                                    <p>Оригинальные подачи</p>
+                                    <p>Мы поженили кейтеринг и декор, в связи с этим мы регулярно рожаем эксклюзивные и стильные подачи блюд. Это подчеркивает индивидуальность событий, которые мы делаем и позволяет создавать разные тематики событий.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="video">
+                    <h2 style="text-align: center;">Видеоотчёты услуги кейтеринга</h2>
+                    <div>
+                        <div>
+                            <a class="" rel="nofollow" href="https://www.youtube.com/embed/FYDYrdVAdpA" ><img src="https://i.ytimg.com/vi/FYDYrdVAdpA/hqdefault.jpg"></a>
+                        </div>
+                        <div>
+                            <a class="" rel="nofollow" href="https://www.youtube.com/embed/1wOCgSxwvuE" ><img src="https://i.ytimg.com/vi/1wOCgSxwvuE/hqdefault.jpg"></a>
+                        </div>
+                        <div>
+                            <a class="" rel="nofollow" href="https://www.youtube.com/embed/-6b6yKeyVvM" ><img src="https://i.ytimg.com/vi/-6b6yKeyVvM/hqdefault.jpg"></a>
+                        </div>
+                        <div>
+                            <a class="" rel="nofollow" href="https://www.youtube.com/embed/qdwmClb8GlI" ><img src="https://i.ytimg.com/vi/qdwmClb8GlI/hqdefault.jpg"></a>
+                        </div>
+                    </div>
+                    <p><a href="/video/" class="vb-button-link">Больше видео</a></p>
+                </div>
+                
+                <div class="kitchen">
+                    <div>
+                        <div>
+                            <div></div>
+                            <div>
+                                <h2>Кухня кейтеринга</h2>
+                                <p>В нашем распоряжении два пищевых производства в разных районах Москвы. Это позволяет оперативно принимать заказы любого масштаба: от доставки канапе на 10 человек в офис до масштабного фуршета на 5000 человек. Мы специально организовали две фабрики кухни, для безопасности ваших мероприятий. На тот случай, если выключат свет или произойдет что-то еще – у нас всегда есть план «Б».</p>
+                                <p>Пищевая безопасность в кейтеринге – это наш приоритет. Мы прошли добровольное и обязательное тестирование в Роспотребнадзоре и получили 100% все документы СЭС. Регулярно каждый месяц персонал сдает анализы на передаваемые инфекции и все помещения обрабатывается антисептиком.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <div>
+                                <img src="front/bg_trl_center.png">
+                            </div>
+                            <div>
+                                <h2>Кейтеринг сервис</h2>
+                                <ul>
+                                    <li>12 Авторских оригинальных подач на выбор</li>
+                                    <li>Широкий выбор цветов скатертей и текстиля</li>
+                                    <li>Сервис будет происходить на французском фарфоре, дереве и зеркалах</li>
+                                    <li>Для сервировки будут использованы хрустальные бокалы</li>
+                                    <li>Заезд на площадку осуществляется минимум за 3 часа до начала</li>
+                                    <li>Стоимость дополнительных услуг рассчитывается отдельно</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <p><a href="/contakts/" class="vb-button-link form-controller">Записаться на дегустацию</a></p>
+                </div>
+                
+                <div class="store">
+                    <div>
+                    <h2 style="text-align: center;">
+                        Выездной кейтеринг с доставкой</h2>
+                    <p>
+                        &nbsp;</p>
+                    <h3 style="margin-bottom: 4px;">Наборы</h3>
+                    <p style="color: #999;"><a href="/magazin/" style="color: #999;text-decoration: none;">Магазин</a> / <a href="/magazin/Наборы-c10878001" style="color: #999;text-decoration: none;">Наборы</a></p>
+                    <p>В данном разделе представлены <strong>недорогие готовые наборы</strong> для самостоятельного проведения кофе брейка от пяти до двадцати пяти человек. Такие наборы можно заказать и на деловые фуршеты. <strong>Доставка по Москве и области.</strong> </p>
+                    <p>Условия бесплатной доставки уточняйте по телефонам:</p>
+                    <ul style="list-style-position: inside;">
+                        <li>+7 (495) 50-777-43 Москва и Московская область</li>
+                        <li>+7 (4842) 922-145 Калуга и Калужская область</li>
+                    </ul>
+                    <div class="product-menu f-row f-row--justify-center m-10px">
+        <div class="product-menu-item card-style-type-2 f-col f-col--w33 f-col--sm-w100 f-col--md-w50" style="max-width: 400px;">
+            <a href="/magazin/Набор-доставки-для-завтрака-900гр-p210863256" class="content" style="text-decoration: none;padding: 0;">
+                <div class="image">
+                    <img alt="Набор доставки для завтрака 900гр." src="https://dpbfm6h358sh7.cloudfront.net/images/2235077/1486890466.jpg">
+                </div>
+                <div class="content">
+                    <span class="title">Набор доставки для завтрака 900гр.</span>
+                    <ul class="info-list">
+                        <li class="info-item">
+                            <span class="value" style="color: initial;">1 700.00p.</span></li>
+                    </ul>
+                </div>
+                <div class="order">
+                    <p class="order-link">Купить</p>
+                </div>
+            </a>
+        </div>
+        <div class="product-menu-item card-style-type-2 f-col f-col--w33 f-col--sm-w100 f-col--md-w50" style="max-width: 400px;">
+            <a href="/magazin/Ассорти-из-горячего-сыра-в-кляре-1200гр-p210860392" class="content" style="text-decoration: none;padding: 0;">
+                <div class="image">
+                    <img alt="Ассорти из горячего сыра в кляре 1200гр." src="https://dpbfm6h358sh7.cloudfront.net/images/2235077/1486881754.jpg">
+                </div>
+                <div class="content">
+                    <span class="title">Ассорти из горячего сыра в кляре 1200гр.</span>
+                    <ul class="info-list">
+                        <li class="info-item">
+                            <span class="value" style="color: initial;">2 800.00p.</span></li>
+                    </ul>
+                </div>
+                <div class="order">
+                    <p class="order-link">Купить</p>
+                </div>
+            </a>
+        </div>
+        <div class="product-menu-item card-style-type-2 f-col f-col--w33 f-col--sm-w100 f-col--md-w50" style="max-width: 400px;">
+            <a href="/magazin/Ассорти-из-цветных-блинов-20шт-p210863184" class="content" style="text-decoration: none;padding: 0;">
+                <div class="image">
+                    <img alt="Ассорти из цветных блинов 20шт." src="https://dpbfm6h358sh7.cloudfront.net/images/2235077/1486879413.jpg">
+                </div>
+                <div class="content">
+                    <span class="title">Ассорти из цветных блинов 20шт.</span>
+                    <ul class="info-list">
+                        <li class="info-item">
+                            <span class="value" style="color: initial;">2 400.00p.</span></li>
+                    </ul>
+                </div>
+                <div class="order">
+                    <p class="order-link">Купить</p>
+                </div>
+            </a>
+        </div>
+        <div class="product-menu-item card-style-type-2 f-col f-col--w33 f-col--sm-w100 f-col--md-w50" style="max-width: 400px;">
+            <a href="/magazin/Рыбный-сет-p175798050" class="content" style="text-decoration: none;padding: 0;">
+                <div class="image">
+                    <img alt="Рыбный сет" src="https://dpbfm6h358sh7.cloudfront.net/images/2235077/1464132676.jpg">
+                </div>
+                <div class="content">
+                    <span class="title">Рыбный сет</span>
+                    <ul class="info-list">
+                        <li class="info-item">
+                            <span class="value" style="color: initial;">2 400.00p.</span></li>
+                    </ul>
+                </div>
+                <div class="order">
+                    <p class="order-link">Купить</p>
+                </div>
+            </a>
+        </div>
+        <div class="product-menu-item card-style-type-2 f-col f-col--w33 f-col--sm-w100 f-col--md-w50" style="max-width: 400px;">
+            <a href="/magazin/Сет-мини-бургеров-12шт-p174291302" class="content" style="text-decoration: none;padding: 0;">
+                <div class="image">
+                    <img alt="Сет мини бургеров 12шт." src="https://dpbfm6h358sh7.cloudfront.net/images/2235077/1464131631.jpg">
+                </div>
+                <div class="content">
+                    <span class="title">Сет мини бургеров 12шт.</span>
+                    <ul class="info-list">
+                        <li class="info-item">
+                            <span class="value" style="color: initial;">2 400.00p.</span></li>
+                    </ul>
+                </div>
+                <div class="order">
+                    <p class="order-link">Купить</p>
+                </div>
+            </a>
+        </div>
+        <div class="product-menu-item card-style-type-2 f-col f-col--w33 f-col--sm-w100 f-col--md-w50" style="max-width: 400px;">
+            <a href="/magazin/Сет-с-хот-догами-p174291298" class="content" style="text-decoration: none;padding: 0;">
+                <div class="image">
+                    <img alt="Сет с хот-догами" src="https://dpbfm6h358sh7.cloudfront.net/images/2235077/1464126712.jpg">
+                </div>
+                <div class="content">
+                    <span class="title">Сет с хот-догами</span>
+                    <ul class="info-list">
+                        <li class="info-item">
+                            <span class="value" style="color: initial;">1 950.00p.</span></li>
+                    </ul>
+                </div>
+                <div class="order">
+                    <p class="order-link">Купить</p>
+                </div>
+            </a>
+        </div>
+        <div class="product-menu-item card-style-type-2 f-col f-col--w33 f-col--sm-w100 f-col--md-w50" style="max-width: 400px;">
+            <a href="/magazin/Итальянский-сет-к-вину-p174299258" class="content" style="text-decoration: none;padding: 0;">
+                <div class="image">
+                    <img alt="Итальянский сет к вину" src="https://dpbfm6h358sh7.cloudfront.net/images/2235077/1464128509.jpg">
+                </div>
+                <div class="content">
+                    <span class="title">Итальянский сет к вину</span>
+                    <ul class="info-list">
+                        <li class="info-item">
+                            <span class="value" style="color: initial;">2 600.00p.</span></li>
+                    </ul>
+                </div>
+                <div class="order">
+                    <p class="order-link">Купить</p>
+                </div>
+            </a>
+        </div>
+        <div class="product-menu-item card-style-type-2 f-col f-col--w33 f-col--sm-w100 f-col--md-w50" style="max-width: 400px;">
+            <a href="/magazin/Вегетарианский-сет-p174264257" class="content" style="text-decoration: none;padding: 0;">
+                <div class="image">
+                    <img alt="Вегетарианский сет" src="https://dpbfm6h358sh7.cloudfront.net/images/2235077/1464128426.jpg">
+                </div>
+                <div class="content">
+                    <span class="title">Вегетарианский сет</span>
+                    <ul class="info-list">
+                        <li class="info-item">
+                            <span class="value" style="color: initial;">1 950.00p.</span></li>
+                    </ul>
+                </div>
+                <div class="order">
+                    <p class="order-link">Купить</p>
+                </div>
+            </a>
+        </div>
+        <div class="product-menu-item card-style-type-2 f-col f-col--w33 f-col--sm-w100 f-col--md-w50" style="max-width: 400px;">
+            <a href="/magazin/Набор-для-Кофе-брейка-на-20-25-человек-p42641038" class="content" style="text-decoration: none;padding: 0;">
+                <div class="image">
+                    <img alt="Набор для Кофе-брейка на 20-25 человек" src="https://dpbfm6h358sh7.cloudfront.net/images/2235077/1464135410.jpg">
+                </div>
+                <div class="content">
+                    <span class="title">Набор для Кофе-брейка на 20-25 человек</span>
+                    <ul class="info-list">
+                        <li class="info-item">
+                            <span class="value" style="color: initial;">18 999.00p.</span></li>
+                    </ul>
+                </div>
+                <div class="order">
+                    <p class="order-link">Купить</p>
+                </div>
+            </a>
+        </div></div>
+                    <a class="main-services__all-link" href="/magazin/Наборы-c10878001">Хочу ещё</a>
+                    </div>
+                </div>
+                
+                <div class="skolko">
+                    
+                        <h2 style="text-align: center;" style="padding: 0 var(--s3);">
+	Сколько будет стоить Выездной Банкет?</h2>
+                    <div class="incut">
+                        <div>
+<div class="f-row" style="align-items: center; background-color: #fcf2f2;">
+	<div class="f-col f-col--w50 f-col--sm-w100">
+		<img alt="Фотография персонала кейтеринга за работой" src="https://viezdnoy-banket.ru/admin/engine_modules/ckeditor/kcfinder/upload/images/%D0%92%D1%8B%D0%B5%D0%B7%D0%B4%D0%BD%D0%BE%D0%B9%20%D1%80%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD%20%D0%BA%D0%B5%D0%B9%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B3%20%D0%B2%D1%8B%D0%B5%D0%B7%D0%B4%D0%BD%D0%BE%D0%B9%20%D0%B1%D0%B0%D0%BD%D0%BA%D0%B5%D1%82.jpg" style="margin: auto;" /></div>
+	<div class="f-col f-col--w50 f-col--sm-w100">
+		<div style="margin: 15px;">
+			<span><strong>Сколько будет стоить выездной банкет понятие весьма растяжимое, все зависит от ваших пожеланий. Бюджет легче всего рассчитывать на одну персону и это будет объективный индикатор стоимости.</strong></span></div>
+	</div>
+</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="services">
+                    	<div>
+<div class="main-services">
+	<h2 class="main-services__title">
+		Услуги</h2>
+	<h3 class="main-services__subtitle">
+		Выездная кухня, кейтеринг</h3>
+	<span class="jc-left jc-left-one"><svg focusable="false" style="width: 36px;height: 36px;" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"></path></svg></span><span class="jc-right jc-right-one"><svg focusable="false" style="width: 36px;height: 36px;" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></span>
+	<div>
+		<div class="f-row scroll js-scroll-one" style="margin: 0;">
+			<div class="f-col f-col--w33 f-col--sm-w75 scroll__item">
+				<div class="main-services__item">
+					<div class="main-services-item">
+						<a class="main-services-item__image" href="/viezdfurshet/"><img alt="Выездной фуршет" class="scroll__item__img" src="https://viezdnoy-banket.ru/admin/templates/site/bar/images/main-page/furshet.jpg" /> </a> <a class="main-services-item__title" href="/viezdfurshet/">Выездной фуршет</a> <span class="main-services-item__price">Цена от <span class="main-services-item__price--bold">50 000</span> руб.</span></div>
+				</div>
+			</div>
+			<div class="f-col f-col--w33 f-col--sm-w75 scroll__item">
+				<div class="main-services__item">
+					<div class="main-services-item">
+						<a class="main-services-item__image" href="/orgcoffeebrake/"><img alt="Организация кофе брейка" class="scroll__item__img" src="https://viezdnoy-banket.ru/admin/templates/site/bar/images/main-page/coffee-break.jpeg" /> </a> <a class="main-services-item__title" href="/orgcoffeebrake/">Организация кофе брейка</a> <span class="main-services-item__price">Цена от <span class="main-services-item__price--bold">34 500</span> руб.</span></div>
+				</div>
+			</div>
+			<div class="f-col f-col--w33 f-col--sm-w75 scroll__item">
+				<div class="main-services__item">
+					<div class="main-services-item">
+						<a class="main-services-item__image" href="/kanape/"><img alt="Доставка канапе" class="scroll__item__img" src="https://viezdnoy-banket.ru/admin/templates/site/bar/images/main-page/kanape.jpg" /> </a> <a class="main-services-item__title" href="/kanape/">Доставка канапе</a> <span class="main-services-item__price">Цена от <span class="main-services-item__price--bold">10 000</span> руб.</span></div>
+				</div>
+			</div>
+			<div class="f-col f-col--w33 f-col--sm-w75 scroll__item">
+				<div class="main-services__item">
+					<div class="main-services-item">
+						<a class="main-services-item__image" href="/obslugsvadeb/"><img alt="Кейтеринг на свадьбу" class="scroll__item__img" src="https://viezdnoy-banket.ru/admin/templates/site/bar/images/main-page/wedding.jpg" /> </a> <a class="main-services-item__title" href="/obslugsvadeb/">Кейтеринг на свадьбу</a> <span class="main-services-item__price">Цена от <span class="main-services-item__price--bold">96 000</span> руб.</span></div>
+				</div>
+			</div>
+			<div class="f-col f-col--w33 f-col--sm-w75 scroll__item">
+				<div class="main-services__item">
+					<div class="main-services-item">
+						<a class="main-services-item__image" href="/chocolatefontan/"><img alt="Шоколадный фонтан на праздник" class="scroll__item__img" src="https://viezdnoy-banket.ru/admin/templates/site/bar/images/main-page/chocolate.jpg" /> </a> <a class="main-services-item__title" href="/chocolatefontan/">Шоколадный фонтан на праздник</a> <span class="main-services-item__price">Цена от <span class="main-services-item__price--bold">16 900</span> руб.</span></div>
+				</div>
+			</div>
+			<div class="f-col f-col--w33 f-col--sm-w75 scroll__item">
+				<div class="main-services__item">
+					<div class="main-services-item">
+						<a class="main-services-item__image" href="/ukrashenie_zala/"><img alt="Украшение зала" class="scroll__item__img" src="https://viezdnoy-banket.ru/admin/templates/site/bar/images/main-page/hall.jpg" /> </a> <a class="main-services-item__title" href="/ukrashenie_zala/">Украшение зала</a> <span class="main-services-item__price">Цена от <span class="main-services-item__price--bold">44 700</span> руб.</span></div>
+				</div>
+			</div>
+			<div class="f-col f-col--w33 f-col--sm-w75 scroll__item">
+				<div class="main-services__item">
+					<div class="main-services-item">
+						<a class="main-services-item__image" href="/organizaciyabbq/"><img alt="Организация BBQ" class="scroll__item__img" src="https://viezdnoy-banket.ru/admin/templates/site/bar/images/main-page/catering-bbq.jpeg" /> </a> <a class="main-services-item__title" href="/organizaciyabbq/">Организация BBQ</a> <span class="main-services-item__price">Цена от <span class="main-services-item__price--bold">60 000</span> руб.</span></div>
+				</div>
+			</div>
+			<div class="f-col f-col--w33 f-col--sm-w75 scroll__item">
+				<div class="main-services__item">
+					<div class="main-services-item">
+						<a class="main-services-item__image" href="/vipusknoy/"><img alt="Организация выпускных" class="scroll__item__img" src="https://viezdnoy-banket.ru/admin/templates/site/bar/images/main-page/school.jpg" /> </a> <a class="main-services-item__title" href="/vipusknoy/">Организация выпускных</a> <span class="main-services-item__price">Цена по запросу</span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="main-services">
+	<h3 class="main-services__subtitle" style="padding-top: 25px;">
+		Услуги мобильного бара</h3>
+	<span class="jc-left jc-left-two"><svg focusable="false" style="width: 36px;height: 36px;" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"></path></svg></span><span class="jc-right jc-right-two"><svg focusable="false" style="width: 36px;height: 36px;" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></span>
+	<div>
+		<div class="f-row scroll js-scroll-two" style="margin: 0;">
+			<div class="f-col f-col--w33 f-col--sm-w75 scroll__item">
+				<div class="main-services__item">
+					<div class="main-services-item">
+						<a class="main-services-item__image" href="/outbar/"><img alt="Выездной бар" class="scroll__item__img" src="https://viezdnoy-banket.ru/admin/templates/site/bar/images/main-page/outbar.jpg" /> </a> <a class="main-services-item__title" href="/outbar/">Выездной бар</a> <span class="main-services-item__price">Цена от <span class="main-services-item__price--bold">26 100</span> руб.</span></div>
+				</div>
+			</div>
+			<div class="f-col f-col--w33 f-col--sm-w75 scroll__item">
+				<div class="main-services__item">
+					<div class="main-services-item">
+						<a class="main-services-item__image" href="/orgkoteil/"><img alt="Коктейль бар" class="scroll__item__img" src="https://viezdnoy-banket.ru/admin/templates/site/bar/images/main-page/cocktailbar.jpg" /> </a> <a class="main-services-item__title" href="/orgkoteil/">Коктейль бар</a> <span class="main-services-item__price">Цена от <span class="main-services-item__price--bold">26 100</span> руб.</span></div>
+				</div>
+			</div>
+			<div class="f-col f-col--w33 f-col--sm-w75 scroll__item">
+				<div class="main-services__item">
+					<div class="main-services-item">
+						<a class="main-services-item__image" href="/viezdnoy_pivnoy_bar/"><img alt="Пивной бар" class="scroll__item__img" src="https://viezdnoy-banket.ru/admin/templates/site/bar/images/main-page/beerbar.jpg" /> </a> <a class="main-services-item__title" href="/viezdnoy_pivnoy_bar/">Пивной бар</a> <span class="main-services-item__price">Цена от <span class="main-services-item__price--bold">26 000</span> руб.</span></div>
+				</div>
+			</div>
+			<div class="f-col f-col--w33 f-col--sm-w75 scroll__item">
+				<div class="main-services__item">
+					<div class="main-services-item">
+						<a class="main-services-item__image" href="/freshbar/"><img alt="Фреш Бар" class="scroll__item__img" src="https://viezdnoy-banket.ru/admin/templates/site/bar/images/main-page/freshbar.jpg" /> </a> <a class="main-services-item__title" href="/freshbar/">Фреш Бар</a> <span class="main-services-item__price">Цена от <span class="main-services-item__price--bold">30 200</span> руб.</span></div>
+				</div>
+			</div>
+			<div class="f-col f-col--w33 f-col--sm-w75 scroll__item">
+				<div class="main-services__item">
+					<div class="main-services-item">
+						<a class="main-services-item__image" href="/barmenshow/"><img alt="Бармен шоу" class="scroll__item__img" src="https://viezdnoy-banket.ru/admin/templates/site/bar/images/main-page/barmen.jpg" /> </a> <a class="main-services-item__title" href="/barmenshow/">Бармен шоу</a> <span class="main-services-item__price">Цена от <span class="main-services-item__price--bold">11 500</span> руб.</span></div>
+				</div>
+			</div>
+			<div class="f-col f-col--w33 f-col--sm-w75 scroll__item">
+				<div class="main-services__item">
+					<div class="main-services-item">
+						<a class="main-services-item__image" href="/piramidbokal/"><img alt="Пирамида из бокалов шампанского" class="scroll__item__img" src="https://viezdnoy-banket.ru/admin/templates/site/bar/images/main-page/bokal.jpg" /> </a> <a class="main-services-item__title" href="/piramidbokal/">Пирамида из бокалов шампанского</a> <span class="main-services-item__price">Цена от <span class="main-services-item__price--bold">6 999</span> руб.</span></div>
+				</div>
+			</div>
+			<div class="f-col f-col--w33 f-col--sm-w75 scroll__item">
+				<div class="main-services__item">
+					<div class="main-services-item">
+						<a class="main-services-item__image" href="/molekulbar/"><img alt="Молекулярный бар" class="scroll__item__img" src="https://viezdnoy-banket.ru/admin/templates/site/bar/images/main-page/molekular.jpg" /> </a> <a class="main-services-item__title" href="/molekulbar/">Молекулярный бар</a> <span class="main-services-item__price">Цена от <span class="main-services-item__price--bold">31 500</span> руб.</span></div>
+				</div>
+			</div>
+			<div class="f-col f-col--w33 f-col--sm-w75 scroll__item">
+				<div class="main-services__item">
+					<div class="main-services-item">
+						<a class="main-services-item__image" href="/interactive_master_class/"><img alt="Интерактивный мастер класс" class="scroll__item__img" src="https://viezdnoy-banket.ru/admin/templates/site/bar/images/main-page/master.jpg" /> </a> <a class="main-services-item__title" href="/interactive_master_class/">Интерактивный мастер класс</a> <span class="main-services-item__price">Цена от <span class="main-services-item__price--bold">18000</span> руб.</span></div>
+				</div>
+			</div>
+			<div class="f-col f-col--w33 f-col--sm-w75 scroll__item">
+				<div class="main-services__item">
+					<div class="main-services-item">
+						<a class="main-services-item__image" href="/photo_video_semka/"><img alt="Фото и Видео съемка" class="scroll__item__img" src="https://viezdnoy-banket.ru/admin/templates/site/bar/images/main-page/photo-video.jpg" /> </a> <a class="main-services-item__title" href="/photo_video_semka/">Фото и Видео съемка</a> <span class="main-services-item__price">Цена по запросу</span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<a class="main-services__all-link" href="/uslugi_catering/" style="margin-bottom: var(--s-1);">Все услуги</a></div>
+
+                    </div>
+                </div>
+                
+                <div class="instagram">
+                    <div>
+        <h2 class="instagram__title">Инстаграм кейтеринга</h2>
+        <a href="https://www.instagram.com/vb__catering/" rel="nofollow" target="_blank" style="text-decoration: none;"><h3 class="instagram__subtitle">@vb__catering</h3></a>
+
+        <div class="f-row" style="margin: 0;">
+
+        <div class="f-col f-col--w25">
+           <div class="hover-overlayed">    
+                <a href="https://www.instagram.com/p/CCDyLjVJFA_/" rel="nofollow" target="_blank">
+                    <img alt="@vb__catering" src="https://viezdnoy-banket.ru/admin/templates/site/bar/images/instagram/CCDyLjVJFA_.jpg" style="margin: 0;">
+                    <div class="hover-overlayed__cover">
+                        <div class="hover-overlayed__text">
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    
+        <div class="f-col f-col--w25">
+           <div class="hover-overlayed">    
+                <a href="https://www.instagram.com/p/CB-Y3QMKyxd/" rel="nofollow" target="_blank">
+                    <img alt="@vb__catering" src="https://viezdnoy-banket.ru/admin/templates/site/bar/images/instagram/CB-Y3QMKyxd.jpg" style="margin: 0;">
+                    <div class="hover-overlayed__cover">
+                        <div class="hover-overlayed__text">
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    
+        <div class="f-col f-col--w25">
+           <div class="hover-overlayed">    
+                <a href="https://www.instagram.com/p/CB4vJPepM2M/" rel="nofollow" target="_blank">
+                    <img alt="@vb__catering" src="https://viezdnoy-banket.ru/admin/templates/site/bar/images/instagram/CB4vJPepM2M.jpg" style="margin: 0;">
+                    <div class="hover-overlayed__cover">
+                        <div class="hover-overlayed__text">
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    
+        <div class="f-col f-col--w25">
+           <div class="hover-overlayed">    
+                <a href="https://www.instagram.com/p/CBSVFsNJMLv/" rel="nofollow" target="_blank">
+                    <img alt="@vb__catering" src="https://viezdnoy-banket.ru/admin/templates/site/bar/images/instagram/CBSVFsNJMLv.jpg" style="margin: 0;">
+                    <div class="hover-overlayed__cover">
+                        <div class="hover-overlayed__text">
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    
+        <div class="f-col f-col--w25">
+           <div class="hover-overlayed">    
+                <a href="https://www.instagram.com/p/CAutBckJ9m0/" rel="nofollow" target="_blank">
+                    <img alt="@vb__catering" src="https://viezdnoy-banket.ru/admin/templates/site/bar/images/instagram/CAutBckJ9m0.jpg" style="margin: 0;">
+                    <div class="hover-overlayed__cover">
+                        <div class="hover-overlayed__text">
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    
+        <div class="f-col f-col--w25">
+           <div class="hover-overlayed">    
+                <a href="https://www.instagram.com/p/CApwUAzpYcL/" rel="nofollow" target="_blank">
+                    <img alt="@vb__catering" src="https://viezdnoy-banket.ru/admin/templates/site/bar/images/instagram/CApwUAzpYcL.jpg" style="margin: 0;">
+                    <div class="hover-overlayed__cover">
+                        <div class="hover-overlayed__text">
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    
+        <div class="f-col f-col--w25">
+           <div class="hover-overlayed">    
+                <a href="https://www.instagram.com/p/CAmzoUjpYGu/" rel="nofollow" target="_blank">
+                    <img alt="@vb__catering" src="https://viezdnoy-banket.ru/admin/templates/site/bar/images/instagram/CAmzoUjpYGu.jpg" style="margin: 0;">
+                    <div class="hover-overlayed__cover">
+                        <div class="hover-overlayed__text">
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    
+        <div class="f-col f-col--w25">
+           <div class="hover-overlayed">    
+                <a href="https://www.instagram.com/p/CAdLVF1JO-S/" rel="nofollow" target="_blank">
+                    <img alt="@vb__catering" src="https://viezdnoy-banket.ru/admin/templates/site/bar/images/instagram/CAdLVF1JO-S.jpg" style="margin: 0;">
+                    <div class="hover-overlayed__cover">
+                        <div class="hover-overlayed__text">
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    
+    </div>
+    <a class="main-services__all-link"  href="https://www.instagram.com/vb__catering/" rel="nofollow" target="_blank">Хочу ещё красоты</a>
+                    </div>
+                </div>
+                
+            </main>
+        </div>
+    </div>
+    
+    <section id="gallery">
+        <h3 style="text-align: center;margin-top: var(--s3)">Фотоотчеты наших мероприятий</h3>
+        <div class="photo-feed">
+            <div>
+                <div>
+                    <div>
+                        <img src="gallery1.jpg">
+                        <div><p>Столыпинский форум 2019</p></div>
+                    </div>
+                    <div>
+                        <img src="gallery2.jpg">
+                        <div><p>IT выставка</p></div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="gallery3.jpg">
+                        <div><p>Событие года 2018 - банкет на 500 человек</p></div>
+                    </div>
+                    <div>
+                        <img src="gallery4.jpg">
+                        <div><p>Фотографии блюд</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    
+    <section id="towns-list">
+        <h3 style="text-align: center;">Кейтеринг в Подмосковье</h3>
+        <div class="catering-towns">
+            <div>
+                <div>
+					<a href="/catering_balashiha/">Кейтеринг Балашиха</a>
+					<a href="/catering_korolev/">Кейтеринг Королев</a>
+					<a href="/catering_solnechnogorsk/">Кейтеринг Солнечногорск</a>
+					<a href="/catering_lytkarino/">Кейтеринг в Лыткарино</a>
+					<div hidden>
+						<a href="/catering_klimovsk/">Кейтеринг в Климовске</a>
+						<a href="/catering_vidnoje/">Кейтеринг Видное</a>
+						<a href="/catering_friazino/">Кейтеринг Фрязино</a>
+						<a href="/catering_naro_fominsk/">Кейтеринг в Наро-Фоминске</a>
+						<a href="/catering_pavlovskij_posad/">Кейтеринг Павловский Посад</a>
+						<a href="/catering_mitishi/">Кейтеринг в Мытищах</a>
+					</div>
+				</div>
+				<div>
+					<a href="/catering_stupino/">Кейтеринг в Ступино</a>
+					<a href="/catering_ivanteevka/">Кейтеринг в Ивантеевке</a>
+					<a href="/catering_chehov/">Кейтеринг в Чехове</a>
+					<a href="/catering_egorjevsk/">Кейтеринг в Егорьевске</a>
+					<div hidden>
+						<a href="/catering_dubna/">Кейтеринг в Дубне</a>
+						<a href="/catering_klin/">Кейтеринг Клин</a>
+						<a href="/catering_lobnia/">Кейтеринг в Лобне</a>
+						<a href="/catering_reutov/">Кейтеринг в Реутове</a>
+						<a href="/catering_voskresensk/">Кейтеринг в Воскресенске</a>
+						<a href="/catering_electostal/">Кейтеринг Электросталь</a>
+					</div>
+				</div>
+				<div>
+					<a href="/catering_pushkino/">Кейтеринг в Пушкино</a>
+					<a href="/catering_sergiev_posad_banket/">Кейтеринг в Сергиев Посаде</a>
+					<a href="/catering_kaluga/">Кейтеринг в Калуге</a>
+					<a href="/catering_domodedovo/">Кейтеринг в Домодедово</a>
+					<div hidden>
+						<a href="/catering_odincovo/">Кейтеринг Одинцово</a>
+						<a href="/catering_v_dmitrove/">Выездной кейтеринг в городе Дмитров</a>
+						<a href="/catering_v_himkah/">Кейтеринг в Химках</a>
+						<a href="/caternig_lubercy/">Выездной ресторан в Люберцах</a>
+						<a href="/catering_zvenigorod/">Выездной банкет в Звенигороде</a>
+						<a href="/catering_podolsk/">Кейтеринг в Подольске</a>
+					</div>
+				</div>
+            </div>
+            <div style="text-align: center;">
+                <a class="catering-towns--show">Показать ещё</a>
+            </div>
+        </div>
+        
+        <script>
+            const show = document.querySelector('.catering-towns--show');
+            
+            function toggleVisibility () {
+                this.hidden = !this.hidden;
+                var items = Array.prototype.slice.call(this.parentElement.previousElementSibling.children);
+                items.forEach(item => item.lastElementChild.hidden = !item.lastElementChild.hidden);
+            }
+            
+            show.addEventListener('click', toggleVisibility);
+        </script>
+        
+    </section>
+    
+    <noindex>
+		<div class="bottom-logos">
+			<div class="otch">
+				<img src="http://viezdnoy-banket.ru/images/naom-logo.png" alt="Логотип НАОМ">
+				<p class="namefot">Члены НАОМ – Национальная Ассоциация Организаторов Праздников</p>
+			</div>
+			<div class="otch">
+				<img src="http://viezdnoy-banket.ru/images/catering_professional_180.png" alt="Логотип Catering Professional">
+				<p class="namefot">Аккредитация Catering Professional</p>
+			</div>
+			<div class="otch">
+				<img src="http://viezdnoy-banket.ru/images/gef18_logo_kvadrat_150.png" alt="Логотип GlobalEventForum">
+				<p class="namefot">Мы являемся частью организационной группы GlobalEventForum – самый большой форум про Event</p>
+			</div>
+			<div class="otch">
+				<img src="vb_logo_b.svg" alt="Логотип Выездной банкет" style="max-width: 70%;margin-bottom: var(--s-1);">
+				<p class="namefot">Чемпионы кейтеринг батла 2018</p>
+			</div>
+		</div>
+	</noindex>
+    
+    <nav class="footer-menu" id="footer">
+      <div> <!-- intermediary wrapper -->
+        <div>
+            <div class="menu-wrapper">
+                <div class="footer-block">
+                    <div><strong>Наши адреса</strong></div>
+
+                    <div style="color: white;">Москва:&nbsp;ул. Горбунова, д.2 стр.3,<br>
+                        БЦ &laquo;Гранд Сетунь Плаза&raquo;<br><br>Калуга:&nbsp;&nbsp;ул. Театральная, д.9
+                    </div>
+
+                    <div><strong>Телефоны</strong></div>
+
+                    <div style="color: white;">Москва:&nbsp;+7 (495) 50-777-43</div>
+
+                    <div><strong>Режим работы</strong></div>
+
+                    <div style="color: white;" class="worktime"><span>Пн-Пт 9:00-19:00</span></div>
+                    <div class="socials">
+                        <ul>
+                            <li>
+                                <a title="ВКонтакте" target="_blank" rel="nofollow" href="https://vk.com/catering.moscow"><svg style="height: var(--s2);width: var(--s2); fill: #fff;" height="2em" viewBox="0 0 512 512" width="2em" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M475.515,137.899c3.16-10.674,0-18.53-15.2-18.53h-50.297c-12.809,0-18.702,6.746-21.861,14.261    c0,0-25.617,62.422-61.825,102.899c-11.698,11.699-17.078,15.457-23.482,15.457c-3.158,0-8.027-3.758-8.027-14.432v-99.655    c0-12.809-3.588-18.53-14.176-18.53h-79.075c-8.027,0-12.809,5.978-12.809,11.528c0,12.125,18.104,14.943,19.983,49.101v74.123    c0,16.225-2.904,19.212-9.308,19.212c-17.079,0-58.581-62.678-83.174-134.409c-4.952-13.919-9.821-19.555-22.715-19.555H43.25    c-14.346,0-17.25,6.746-17.25,14.261c0,13.32,17.079,79.502,79.502,166.945c41.587,59.689,100.167,92.056,153.453,92.056    c32.022,0,35.951-7.173,35.951-19.555c0-57.045-2.903-62.425,13.152-62.425c7.428,0,20.237,3.757,50.127,32.534    c34.155,34.158,39.792,49.445,58.92,49.445h50.297c14.347,0,21.606-7.173,17.421-21.351    c-9.564-29.801-74.208-91.114-77.111-95.213c-7.429-9.564-5.295-13.835,0-22.375C407.799,253.608,469.195,167.189,475.515,137.899    L475.515,137.899z"/></svg></a>
+                            </li>
+                            <li>
+                                <a title="Instagram" target="_blank" rel="nofollow" href="https://www.instagram.com/Nikita_event_catering/"><svg style="height: var(--s2);width: var(--s2); fill: #fff;" x="0px" y="0px" viewBox="0 0 56.7 56.7"><path d="M28.2,16.7c-7,0-12.8,5.7-12.8,12.8s5.7,12.8,12.8,12.8S41,36.5,41,29.5S35.2,16.7,28.2,16.7z M28.2,37.7 c-4.5,0-8.2-3.7-8.2-8.2s3.7-8.2,8.2-8.2s8.2,3.7,8.2,8.2S32.7,37.7,28.2,37.7z"/><circle cx="41.5" cy="16.4" r="2.9"/><path d="M49,8.9c-2.6-2.7-6.3-4.1-10.5-4.1H17.9c-8.7,0-14.5,5.8-14.5,14.5v20.5c0,4.3,1.4,8,4.2,10.7c2.7,2.6,6.3,3.9,10.4,3.9 h20.4c4.3,0,7.9-1.4,10.5-3.9c2.7-2.6,4.1-6.3,4.1-10.6V19.3C53,15.1,51.6,11.5,49,8.9z M48.6,39.9c0,3.1-1.1,5.6-2.9,7.3 s-4.3,2.6-7.3,2.6H18c-3,0-5.5-0.9-7.3-2.6C8.9,45.4,8,42.9,8,39.8V19.3c0-3,0.9-5.5,2.7-7.3c1.7-1.7,4.3-2.6,7.3-2.6h20.6 c3,0,5.5,0.9,7.3,2.7c1.7,1.8,2.7,4.3,2.7,7.2V39.9L48.6,39.9z"/></svg></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-block" style="flex-basis: 14ch;flex-grow: 2;">
+                    <div><strong>О нас</strong></div>
+
+                    <ul style="list-style: none;margin-right: 10px;">
+                        <li><a href="/viezdfurshet/">Команда</a></li>
+                        <li><a href="/orgcoffeebrake/">Кейсы</a></li>
+                        <li><a href="/kanape/">Фото и видео</a></li>
+                        <li><a href="/obslugsvadeb/">СМИ о нас</a></li>
+                        <li><a href="/chocolatefontan/">Отзывы</a></li>
+                        <li><a href="/ukrashenie_zala/">Способы оплаты</a></li>
+                        <li><a href="/dostavka_blyud/">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <div>
+        <div class="menu-wrapper">
+            <div class="footer-block">
+                <div><strong>Выездная кухня форматы</strong></div>
+                
+				<ul style="list-style: none;margin-right: 10px;">
+                    <li><a href="/viezdfurshet/">Выздной банкет</a></li>
+                    <li><a href="/viezdfurshet/">Фуршет</a></li>
+                    <li><a href="/viezdfurshet/">Кофе брейк</a></li>
+                    <li><a href="/viezdfurshet/">Коктейль (разнос закусок)</a></li>
+                    <li><a href="/viezdfurshet/">Организация BBQ</a></li>
+                    <li><a href="/viezdfurshet/">Кулинарные станции и анимация</a></li>
+                    <li><a href="/viezdfurshet/">Доставка канапе и фуршетных блюд</a></li>
+                    <li><a href="/viezdfurshet/">Стрит фуд</a></li>
+                    <li><a href="/viezdfurshet/">Кулинарные мастер классы</a></li>
+                    <li><a href="/viezdfurshet/">Молекулярная кухня</a></li>
+                    <li><a href="/viezdfurshet/">Фан кейтеринг </a></li>
+                    <li><a href="/viezdfurshet/">Кенди бар и кондитерская</a></li>
+                    <li><a href="/viezdfurshet/">Заказать торт</a></li>
+                    <li><a href="/viezdfurshet/">Корпоративное питание</a></li>
+                    <li><a href="/viezdfurshet/">Гала ужин</a></li>
+                    <li><a href="/viezdfurshet/">Кулинарные поединки</a></li>
+                </ul>
+            </div>
+            <div class="footer-block">
+                <div><strong>Поводы</strong></div>
+                
+				<ul style="list-style: none;margin-right: 10px;">
+                    <li><a href="/viezdfurshet/">Кейтеринг на деловое мероприятие</a></li>
+                    <li><a href="/viezdfurshet/">Кейтеринг на выставку выставку</a></li>
+                    <li><a href="/viezdfurshet/">Свадебный кейтеринг</a></li>
+                    <li><a href="/viezdfurshet/">Кейтеринг на конференцию</a></li>
+                    <li><a href="/viezdfurshet/">Доставка закусок в офис</a></li>
+                    <li><a href="/viezdfurshet/">Кейтеринг на 8 марта</a></li>
+                    <li><a href="/viezdfurshet/">23 февраля</a></li>
+                    <li><a href="/viezdfurshet/">На защиту диплома</a></li>
+                    <li><a href="/viezdfurshet/">Банкет на выпускной</a></li>
+                    <li><a href="/viezdfurshet/">Кейтеринг на корпоратив</a></li>
+                    <li><a href="/viezdfurshet/">Выездной банкет на новый год</a></li>
+                    <li><a href="/viezdfurshet/">Детский кейтеринг</a></li>
+                    <li><a href="/viezdfurshet/">Масленица</a></li>
+                    <li><a href="/viezdfurshet/">День рождения</a></li>
+                    <li><a href="/viezdfurshet/">Вечеринка</a></li>
+                    <li><a href="/viezdfurshet/">Кейтеринг на официальные открытия</a></li>
+                </ul>
+            </div>
+            <div class="footer-block">
+                <div><strong>Услуги выездного бара</strong></div>
+                
+				<ul style="list-style: none;margin-right: 10px;">
+                    <li><a href="/viezdfurshet/">Выездной коктейль бар</a></li>
+                    <li><a href="/viezdfurshet/">Молекулярный бар</a></li>
+                    <li><a href="/viezdfurshet/">Фреш бар</a></li>
+                    <li><a href="/viezdfurshet/">Бармен шоу</a></li>
+                    <li><a href="/viezdfurshet/">Пирамида из бокалов шампанского</a></li>
+                    <li><a href="/viezdfurshet/">Мастер классы по коктейлям и напиткам</a></li>
+                    <li><a href="/viezdfurshet/">Услуги сомелье</a></li>
+                    <li><a href="/viezdfurshet/">Скрутка сигар</a></li>
+                    <li><a href="/viezdfurshet/">Пирамида из бокалов шампанского</a></li>
+                    <li><a href="/viezdfurshet/">Шоколадный фонтан</a></li>
+                    <li><a href="/viezdfurshet/">Выездной пивной бар</a></li>
+                    <li><a href="/viezdfurshet/">Бар молочных коктейлей</a></li>
+                </ul>
+            </div>
+            <div class="footer-block">
+                <div><strong>Аренда для мероприятий</strong></div>
+                
+				<ul style="list-style: none;margin-right: 10px;">
+                    <li><a href="/viezdfurshet/">Аренда столов и стульев</a></li>
+                    <li><a href="/viezdfurshet/">Аренда декора</a></li>
+                    <li><a href="/viezdfurshet/">Аренда шатров</a></li>
+                    <li><a href="/viezdfurshet/">Аренда диванов и мебели</a></li>
+                    <li><a href="/viezdfurshet/">Аренда посуды</a></li>
+                    <li><a href="/viezdfurshet/">Аренда звука и света</a></li>
+                    <li><a href="/viezdfurshet/">Аренда текстиля и скатертей</a></li>
+                    <li><a href="/viezdfurshet/">Аренда кухонного оборудования</a></li>
+                    <li><a href="/viezdfurshet/">Аренда уличных зонтов</a></li>
+                </ul>
+            </div>
+            <div class="footer-block">
+                <div><strong>Дополнительные услуги</strong></div>
+                
+				<ul style="list-style: none;margin-right: 10px;">
+                    <li><a href="/viezdfurshet/">Организация мероприятий под ключ</a></li>
+                    <li><a href="/viezdfurshet/">Украшение зала и декор</a></li>
+                    <li><a href="/viezdfurshet/">Подбор площадок для меропирятий</a></li>
+                    <li><a href="/viezdfurshet/">Фото и Видео сьемка</a></li>
+                    <li><a href="/viezdfurshet/">Ведущий на мероприятие</a></li>
+                    <li><a href="/viezdfurshet/">Заказать диджея на мероприятие</a></li>
+                    <li><a href="/viezdfurshet/">Организация трансфера</a></li>
+                    <li><a href="/viezdfurshet/">Координация мероприятий</a></li>
+                    <li><a href="/viezdfurshet/">Свадебный распорядитель</a></li>
+                </ul>
+            </div>
+            <div class="footer-block">
+                <div><strong>Аренда площадок</strong></div>
+                
+				<ul style="list-style: none;margin-right: 10px;">
+                    <li><a href="/viezdfurshet/">Площадки для свадеб</a></li>
+                    <li><a href="/viezdfurshet/">Аренда коттеджей для мероприятий</a></li>
+                    <li><a href="/viezdfurshet/">Площадки для деловых мероприятий</a></li>
+                    <li><a href="/viezdfurshet/">Для корпоративных мероприятий</a></li>
+                    <li><a href="/viezdfurshet/">Аренда лофта для праздника</a></li>
+                    <li><a href="/viezdfurshet/">Необычные площадки для мероприятий</a></li>
+                    <li><a href="/viezdfurshet/">Аренда шатров у воды</a></li>
+                    <li><a href="/viezdfurshet/">Аренда масштабных площадок</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  </div>
+        <div style="text-align: center;margin: 0;display: block;">
+            <p style="color:#fff;">© 2008–2020 Кейтеринговая компания Viezdnoy–banket</p>
+        </div>
+</nav>
+    
+    <section id="contact">
+        <div class="contact-form" hidden>
+            <div>
+                <div>
+                    <img src="bg.jpg">
+                    <button class="form-controller">
+                        <svg aria-label="FormClose" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                                    <path d="M4 4 L24 24 M4 24 L24 4"></path>
+                                    </svg>
+                    </button>
+                </div>
+                <div>
+                    <form id="contactSimple">
+                        <h3>Online оформление заявки</h3>
+                        <input type="text" placeholder="Имя" id="customerName" required autofocus>
+                        <input type="tel" placeholder="Телефон" id="customerPhone" required>
+                        <label for="customerAgreed" id="agreed">Отметьте, что вы даете свое согласие на обработку персональных данных в соответствии с политикой конфиденциальности.
+                            <input type="checkbox" id="customerAgreed" required>
+                            <span class="checkinput"></span>
+                        </label>
+                        <div id="formSuccess" style="display: flex;flex-wrap: wrap;align-items: center;"><button type="submit" onclick="formSend(event)" id="formButton">Отправить заявку</button><p id="formError" style="margin: auto;color: var(--color-brand);font-weight: bold;"></p></div>
+                    </form>
+                </div>
+                <div><img src="bg2.png"></div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Form toggle and send, if the calculator was used - add calc data -->
+    <script>
+        var formControls = document.querySelectorAll('.form-controller');
+        var formBtnId = "";
+        var calcUsed = 0;
+
+        function toggleForm (id) {
+            document.querySelector('.contact-form').hidden = !document.querySelector('.contact-form').hidden;
+            if (id == 'calc' && calcUsed !=0) {
+                document.getElementById("formSuccess").innerHTML = '<button type="submit" onclick="formSend(event)" id="formButton">Заказать</button><p id="formError" style="margin: auto;color: var(--color-brand);font-weight: bold;"></p>';}
+        }
+
+        formControls.forEach(controller => controller.addEventListener('click', (e) => {
+            e.preventDefault();
+            formBtnId = e.target.innerHTML;
+            if (document.getElementById('formButton')) document.getElementById('formButton').innerHTML = formBtnId;
+            toggleForm(e.target.getAttribute('id'));
+            return(false);
+        }));
+        
+        function formSend (e) {
+            e.preventDefault();
+            // Clear error messages
+            document.getElementById("formError").innerHTML = "";
+            function clearOutlines () {
+                var f = document.getElementById("contactSimple");
+                var items = Array.prototype.slice.call(f.children);
+                items.forEach(item => item.style.outline = "");
+            }
+            clearOutlines();
+            
+            // Assemble request 
+            var data = {nameForm:document.getElementById("customerName").value, phoneForm:document.getElementById("customerPhone").value, agreement:document.getElementById("customerAgreed").checked,formButton:formBtnId,formPage:window.location.href,calcStatus:calcUsed};
+            var urlEncodedDataPairs = [], name, urlEncodedData = "";
+            
+            function makePairs (obj) {
+                for (name in obj) {
+                    if (typeof obj[name] != 'object')
+                        urlEncodedDataPairs.push( encodeURIComponent( name ) + '=' + encodeURIComponent( obj[name] ) );
+                    else makePairs(obj[name]);
+                }
+            }
+            
+            makePairs(data);            
+            if (calcUsed !=0) makePairs(eventOffer);
+            urlEncodedData = urlEncodedDataPairs.join( '&' ).replace( /%20/g, '+' );
+            //console.log(urlEncodedData);
+            
+            // Create and send request
+            var XHR = new XMLHttpRequest();
+
+            XHR.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    //console.log(XHR.responseText);
+                    var response = JSON.parse(XHR.responseText);
+                    if (response.error == 0) {
+                        document.getElementById("formSuccess").innerHTML = '<div style="font-size: calc(.333vw + var(--s-1));padding: var(--s-1) var(--s2);line-height: normal;color: #00c5be;font-weight: bold;">' + response.success + '</div>';
+                        calcUsed = 0;
+                    }
+                    else {
+                        document.getElementById("formError").innerHTML = response.success;
+                        if (response.error == 1) {
+                            var el = document.getElementById("customerName");
+                            el.style.outline = "var(--border-thin) solid var(--color-brand)";
+                            el.placeholder = "Укажите ваше имя!";
+                        }
+                        if (response.error == 2) {
+                            var el = document.getElementById("customerPhone");
+                            el.style.outline = "var(--border-thin) solid var(--color-brand)";
+                            el.placeholder = "Укажите ваш телефон!";
+                        }
+                        if (response.error == 3) {
+                            document.getElementById("agreed").style.outline = "var(--border-thin) solid var(--color-brand)";
+                        }
+                    }
+                }
+            };
+
+            XHR.open( 'POST', 'form.php?send=1', true);
+            XHR.setRequestHeader( 'Content-Type', 'application/x-www-form-urlencoded' );
+            XHR.send( urlEncodedData ); 
+        }
+            
+    </script>
+    
+    <!-- Calculator script -->
+    <script>
+        var eventGuestsInput = document.getElementById("eventGuestsInput");
+        var eventTimeInput = document.getElementById("eventTimeInput");
+        var eventTypeOutput = document.getElementById("eventTypeOutput");
+        var eventBudgetOutput = document.getElementById("eventBudgetOutput");
+        var eventGuestsOutput = document.getElementById("eventGuestsOutput");
+        var eventPriceOutput = document.getElementById("eventPriceOutput");
+        var eventTotalOutput = document.getElementById("eventTotalOutput");
+        
+        var eventBudget = {'Эконом':1,'Бизнес':1.3,'Премиум':1.7};
+        var eventType = {
+            'Банкет':2800,
+            'Фуршет':1900,
+            'Кофе брейк':700,
+            'Выездной бар':500,
+            'Барбекю':1700,
+            'Кенди бар':700,
+            'Доставка канапе':700
+        }
+        var eventExtras = {
+            'Оформление декоратором':400,
+            'Выездной кальянный бар':900,
+            'Кулинарная шоу станция':500,
+            'Бармен шоу (фикс)':15000,
+            'Фотограф на мероприятие (фикс)':10000,
+            'Диджей на банкет (фикс)':20000,
+            'Ведущий на праздник (фикс)':50000
+        }
+        
+        var eventOffer = {
+            eventGuests:eventGuestsInput.value * 10,
+            eventTime:eventTimeInput.value,
+            eventBudget:'Бизнес',
+            eventType:'Банкет',
+            eventExtrasPerson:{
+                'Оформление декоратором':0,
+                'Выездной кальянный бар':0,
+                'Кулинарная шоу станция':0
+            },
+            eventExtrasFix:{
+                'Бармен шоу (фикс)':0,
+                'Фотограф на мероприятие (фикс)':0,
+                'Диджей на банкет (фикс)':0,
+                'Ведущий на праздник (фикс)':0
+            },
+            get eventPrice() {
+                var extras = 0;
+                for (extra in this.eventExtrasPerson) extras += this.eventExtrasPerson[extra];
+                for (extra in this.eventExtrasFix) extras += this.eventExtrasFix[extra] / this.eventGuests;
+                return Math.round(eventType[this.eventType] * eventBudget[this.eventBudget] * this.eventTime + extras);
+            },
+            get eventTotal() {
+                return (this.eventPrice * this.eventGuests).toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1 ');
+            }
+        }
+        
+        //console.log(JSON.stringify(eventOffer));
+        
+        eventGuestsOutput.innerHTML = eventOffer.eventGuests;
+        eventPriceOutput.innerHTML = eventOffer.eventPrice;
+        eventTotalOutput.innerHTML = eventOffer.eventTotal;
+        
+        eventGuestsInput.oninput = function() {
+            this.style.setProperty('--c', +this.value);
+            eventOffer.eventGuests = this.value * 10;
+            eventGuestsOutput.innerHTML = eventOffer.eventGuests;
+            eventPriceOutput.innerHTML = eventOffer.eventPrice;
+            eventTotalOutput.innerHTML = eventOffer.eventTotal;
+            calcUsed = 1;
+        }
+        
+         eventTimeInput.oninput = function() {
+            this.style.setProperty('--c', +this.value);
+            eventOffer.eventTime = 1+((this.value - 1 )* 0.1);
+            eventPriceOutput.innerHTML = eventOffer.eventPrice;
+            eventTotalOutput.innerHTML = eventOffer.eventTotal;
+            calcUsed = 1;
+        }
+        
+        function doCalc (i, value, checked = 0) {
+            value = value.trim();
+            if (i == 1) {
+                eventOffer.eventType = value;
+                eventTypeOutput.innerHTML = value;
+            }
+            if (i == 2) {
+                eventOffer.eventBudget = value;
+                eventBudgetOutput.innerHTML = value;
+            }
+            if (i == 4) {
+                if (checked) eventOffer.eventExtrasPerson[value] = eventExtras[value];
+                else eventOffer.eventExtrasPerson[value] = 0;
+            }
+            if (i == 5) {
+                if (checked) eventOffer.eventExtrasFix[value] = eventExtras[value];
+                else eventOffer.eventExtrasFix[value] = 0;
+            }
+            eventPriceOutput.innerHTML = eventOffer.eventPrice;
+            eventTotalOutput.innerHTML = eventOffer.eventTotal;
+            calcUsed = 1;
+        }
+    </script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+</html>
